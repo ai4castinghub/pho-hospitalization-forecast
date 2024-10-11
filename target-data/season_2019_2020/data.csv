@@ -1,0 +1,1821 @@
+"time","geo_value","geo_type","covid","flu","rsv"
+2019-08-31,"Ontario","Province",NA,NA,NA
+2019-08-31,"North East","OH Region",NA,NA,NA
+2019-08-31,"West","OH Region",NA,NA,NA
+2019-08-31,"West","OH Region",NA,NA,NA
+2019-08-31,"West","OH Region",NA,NA,NA
+2019-08-31,"East","OH Region",NA,NA,NA
+2019-08-31,"East","OH Region",NA,NA,NA
+2019-08-31,"West","OH Region",NA,NA,NA
+2019-08-31,"West","OH Region",NA,NA,NA
+2019-08-31,"East","OH Region",NA,NA,NA
+2019-08-31,"Central","OH Region",NA,NA,NA
+2019-08-31,"East","OH Region",NA,NA,NA
+2019-08-31,"West","OH Region",NA,NA,NA
+2019-08-31,"East","OH Region",NA,NA,NA
+2019-08-31,"West","OH Region",NA,NA,NA
+2019-08-31,"East","OH Region",NA,NA,NA
+2019-08-31,"West","OH Region",NA,NA,NA
+2019-08-31,"West","OH Region",NA,NA,NA
+2019-08-31,"North East","OH Region",NA,NA,NA
+2019-08-31,"North West","OH Region",NA,NA,NA
+2019-08-31,"East","OH Region",NA,NA,NA
+2019-08-31,"Central","OH Region",NA,NA,NA
+2019-08-31,"East","OH Region",NA,NA,NA
+2019-08-31,"North East","OH Region",NA,NA,NA
+2019-08-31,"North East","OH Region",NA,NA,NA
+2019-08-31,"West","OH Region",NA,NA,NA
+2019-08-31,"North East","OH Region",NA,NA,NA
+2019-08-31,"Central","OH Region",NA,NA,NA
+2019-08-31,"West","OH Region",NA,NA,NA
+2019-08-31,"North West","OH Region",NA,NA,NA
+2019-08-31,"North East","OH Region",NA,NA,NA
+2019-08-31,"Toronto","OH Region",NA,NA,NA
+2019-08-31,"Central","OH Region",NA,NA,NA
+2019-08-31,"West","OH Region",NA,NA,NA
+2019-08-31,"Central","OH Region",NA,NA,NA
+2019-09-07,"Ontario","Province",NA,NA,NA
+2019-09-07,"North East","OH Region",NA,NA,NA
+2019-09-07,"West","OH Region",NA,NA,NA
+2019-09-07,"West","OH Region",NA,NA,NA
+2019-09-07,"West","OH Region",NA,NA,NA
+2019-09-07,"East","OH Region",NA,NA,NA
+2019-09-07,"East","OH Region",NA,NA,NA
+2019-09-07,"West","OH Region",NA,NA,NA
+2019-09-07,"West","OH Region",NA,NA,NA
+2019-09-07,"East","OH Region",NA,NA,NA
+2019-09-07,"Central","OH Region",NA,NA,NA
+2019-09-07,"East","OH Region",NA,NA,NA
+2019-09-07,"West","OH Region",NA,NA,NA
+2019-09-07,"East","OH Region",NA,NA,NA
+2019-09-07,"West","OH Region",NA,NA,NA
+2019-09-07,"East","OH Region",NA,NA,NA
+2019-09-07,"West","OH Region",NA,NA,NA
+2019-09-07,"West","OH Region",NA,NA,NA
+2019-09-07,"North East","OH Region",NA,NA,NA
+2019-09-07,"North West","OH Region",NA,NA,NA
+2019-09-07,"East","OH Region",NA,NA,NA
+2019-09-07,"Central","OH Region",NA,NA,NA
+2019-09-07,"East","OH Region",NA,NA,NA
+2019-09-07,"North East","OH Region",NA,NA,NA
+2019-09-07,"North East","OH Region",NA,NA,NA
+2019-09-07,"West","OH Region",NA,NA,NA
+2019-09-07,"North East","OH Region",NA,NA,NA
+2019-09-07,"Central","OH Region",NA,NA,NA
+2019-09-07,"West","OH Region",NA,NA,NA
+2019-09-07,"North West","OH Region",NA,NA,NA
+2019-09-07,"North East","OH Region",NA,NA,NA
+2019-09-07,"Toronto","OH Region",NA,NA,NA
+2019-09-07,"Central","OH Region",NA,NA,NA
+2019-09-07,"West","OH Region",NA,NA,NA
+2019-09-07,"Central","OH Region",NA,NA,NA
+2019-09-14,"Ontario","Province",NA,NA,NA
+2019-09-14,"North East","OH Region",NA,NA,NA
+2019-09-14,"West","OH Region",NA,NA,NA
+2019-09-14,"West","OH Region",NA,NA,NA
+2019-09-14,"West","OH Region",NA,NA,NA
+2019-09-14,"East","OH Region",NA,NA,NA
+2019-09-14,"East","OH Region",NA,NA,NA
+2019-09-14,"West","OH Region",NA,NA,NA
+2019-09-14,"West","OH Region",NA,NA,NA
+2019-09-14,"East","OH Region",NA,NA,NA
+2019-09-14,"Central","OH Region",NA,NA,NA
+2019-09-14,"East","OH Region",NA,NA,NA
+2019-09-14,"West","OH Region",NA,NA,NA
+2019-09-14,"East","OH Region",NA,NA,NA
+2019-09-14,"West","OH Region",NA,NA,NA
+2019-09-14,"East","OH Region",NA,NA,NA
+2019-09-14,"West","OH Region",NA,NA,NA
+2019-09-14,"West","OH Region",NA,NA,NA
+2019-09-14,"North East","OH Region",NA,NA,NA
+2019-09-14,"North West","OH Region",NA,NA,NA
+2019-09-14,"East","OH Region",NA,NA,NA
+2019-09-14,"Central","OH Region",NA,NA,NA
+2019-09-14,"East","OH Region",NA,NA,NA
+2019-09-14,"North East","OH Region",NA,NA,NA
+2019-09-14,"North East","OH Region",NA,NA,NA
+2019-09-14,"West","OH Region",NA,NA,NA
+2019-09-14,"North East","OH Region",NA,NA,NA
+2019-09-14,"Central","OH Region",NA,NA,NA
+2019-09-14,"West","OH Region",NA,NA,NA
+2019-09-14,"North West","OH Region",NA,NA,NA
+2019-09-14,"North East","OH Region",NA,NA,NA
+2019-09-14,"Toronto","OH Region",NA,NA,NA
+2019-09-14,"Central","OH Region",NA,NA,NA
+2019-09-14,"West","OH Region",NA,NA,NA
+2019-09-14,"Central","OH Region",NA,NA,NA
+2019-09-21,"Ontario","Province",NA,NA,NA
+2019-09-21,"North East","OH Region",NA,NA,NA
+2019-09-21,"West","OH Region",NA,NA,NA
+2019-09-21,"West","OH Region",NA,NA,NA
+2019-09-21,"West","OH Region",NA,NA,NA
+2019-09-21,"East","OH Region",NA,NA,NA
+2019-09-21,"East","OH Region",NA,NA,NA
+2019-09-21,"West","OH Region",NA,NA,NA
+2019-09-21,"West","OH Region",NA,NA,NA
+2019-09-21,"East","OH Region",NA,NA,NA
+2019-09-21,"Central","OH Region",NA,NA,NA
+2019-09-21,"East","OH Region",NA,NA,NA
+2019-09-21,"West","OH Region",NA,NA,NA
+2019-09-21,"East","OH Region",NA,NA,NA
+2019-09-21,"West","OH Region",NA,NA,NA
+2019-09-21,"East","OH Region",NA,NA,NA
+2019-09-21,"West","OH Region",NA,NA,NA
+2019-09-21,"West","OH Region",NA,NA,NA
+2019-09-21,"North East","OH Region",NA,NA,NA
+2019-09-21,"North West","OH Region",NA,NA,NA
+2019-09-21,"East","OH Region",NA,NA,NA
+2019-09-21,"Central","OH Region",NA,NA,NA
+2019-09-21,"East","OH Region",NA,NA,NA
+2019-09-21,"North East","OH Region",NA,NA,NA
+2019-09-21,"North East","OH Region",NA,NA,NA
+2019-09-21,"West","OH Region",NA,NA,NA
+2019-09-21,"North East","OH Region",NA,NA,NA
+2019-09-21,"Central","OH Region",NA,NA,NA
+2019-09-21,"West","OH Region",NA,NA,NA
+2019-09-21,"North West","OH Region",NA,NA,NA
+2019-09-21,"North East","OH Region",NA,NA,NA
+2019-09-21,"Toronto","OH Region",NA,NA,NA
+2019-09-21,"Central","OH Region",NA,NA,NA
+2019-09-21,"West","OH Region",NA,NA,NA
+2019-09-21,"Central","OH Region",NA,NA,NA
+2019-09-28,"Ontario","Province",NA,NA,NA
+2019-09-28,"North East","OH Region",NA,NA,NA
+2019-09-28,"West","OH Region",NA,NA,NA
+2019-09-28,"West","OH Region",NA,NA,NA
+2019-09-28,"West","OH Region",NA,NA,NA
+2019-09-28,"East","OH Region",NA,NA,NA
+2019-09-28,"East","OH Region",NA,NA,NA
+2019-09-28,"West","OH Region",NA,NA,NA
+2019-09-28,"West","OH Region",NA,NA,NA
+2019-09-28,"East","OH Region",NA,NA,NA
+2019-09-28,"Central","OH Region",NA,NA,NA
+2019-09-28,"East","OH Region",NA,NA,NA
+2019-09-28,"West","OH Region",NA,NA,NA
+2019-09-28,"East","OH Region",NA,NA,NA
+2019-09-28,"West","OH Region",NA,NA,NA
+2019-09-28,"East","OH Region",NA,NA,NA
+2019-09-28,"West","OH Region",NA,NA,NA
+2019-09-28,"West","OH Region",NA,NA,NA
+2019-09-28,"North East","OH Region",NA,NA,NA
+2019-09-28,"North West","OH Region",NA,NA,NA
+2019-09-28,"East","OH Region",NA,NA,NA
+2019-09-28,"Central","OH Region",NA,NA,NA
+2019-09-28,"East","OH Region",NA,NA,NA
+2019-09-28,"North East","OH Region",NA,NA,NA
+2019-09-28,"North East","OH Region",NA,NA,NA
+2019-09-28,"West","OH Region",NA,NA,NA
+2019-09-28,"North East","OH Region",NA,NA,NA
+2019-09-28,"Central","OH Region",NA,NA,NA
+2019-09-28,"West","OH Region",NA,NA,NA
+2019-09-28,"North West","OH Region",NA,NA,NA
+2019-09-28,"North East","OH Region",NA,NA,NA
+2019-09-28,"Toronto","OH Region",NA,NA,NA
+2019-09-28,"Central","OH Region",NA,NA,NA
+2019-09-28,"West","OH Region",NA,NA,NA
+2019-09-28,"Central","OH Region",NA,NA,NA
+2019-10-05,"Ontario","Province",NA,NA,NA
+2019-10-05,"North East","OH Region",NA,NA,NA
+2019-10-05,"West","OH Region",NA,NA,NA
+2019-10-05,"West","OH Region",NA,NA,NA
+2019-10-05,"West","OH Region",NA,NA,NA
+2019-10-05,"East","OH Region",NA,NA,NA
+2019-10-05,"East","OH Region",NA,NA,NA
+2019-10-05,"West","OH Region",NA,NA,NA
+2019-10-05,"West","OH Region",NA,NA,NA
+2019-10-05,"East","OH Region",NA,NA,NA
+2019-10-05,"Central","OH Region",NA,NA,NA
+2019-10-05,"East","OH Region",NA,NA,NA
+2019-10-05,"West","OH Region",NA,NA,NA
+2019-10-05,"East","OH Region",NA,NA,NA
+2019-10-05,"West","OH Region",NA,NA,NA
+2019-10-05,"East","OH Region",NA,NA,NA
+2019-10-05,"West","OH Region",NA,NA,NA
+2019-10-05,"West","OH Region",NA,NA,NA
+2019-10-05,"North East","OH Region",NA,NA,NA
+2019-10-05,"North West","OH Region",NA,NA,NA
+2019-10-05,"East","OH Region",NA,NA,NA
+2019-10-05,"Central","OH Region",NA,NA,NA
+2019-10-05,"East","OH Region",NA,NA,NA
+2019-10-05,"North East","OH Region",NA,NA,NA
+2019-10-05,"North East","OH Region",NA,NA,NA
+2019-10-05,"West","OH Region",NA,NA,NA
+2019-10-05,"North East","OH Region",NA,NA,NA
+2019-10-05,"Central","OH Region",NA,NA,NA
+2019-10-05,"West","OH Region",NA,NA,NA
+2019-10-05,"North West","OH Region",NA,NA,NA
+2019-10-05,"North East","OH Region",NA,NA,NA
+2019-10-05,"Toronto","OH Region",NA,NA,NA
+2019-10-05,"Central","OH Region",NA,NA,NA
+2019-10-05,"West","OH Region",NA,NA,NA
+2019-10-05,"Central","OH Region",NA,NA,NA
+2019-10-12,"Ontario","Province",NA,NA,NA
+2019-10-12,"North East","OH Region",NA,NA,NA
+2019-10-12,"West","OH Region",NA,NA,NA
+2019-10-12,"West","OH Region",NA,NA,NA
+2019-10-12,"West","OH Region",NA,NA,NA
+2019-10-12,"East","OH Region",NA,NA,NA
+2019-10-12,"East","OH Region",NA,NA,NA
+2019-10-12,"West","OH Region",NA,NA,NA
+2019-10-12,"West","OH Region",NA,NA,NA
+2019-10-12,"East","OH Region",NA,NA,NA
+2019-10-12,"Central","OH Region",NA,NA,NA
+2019-10-12,"East","OH Region",NA,NA,NA
+2019-10-12,"West","OH Region",NA,NA,NA
+2019-10-12,"East","OH Region",NA,NA,NA
+2019-10-12,"West","OH Region",NA,NA,NA
+2019-10-12,"East","OH Region",NA,NA,NA
+2019-10-12,"West","OH Region",NA,NA,NA
+2019-10-12,"West","OH Region",NA,NA,NA
+2019-10-12,"North East","OH Region",NA,NA,NA
+2019-10-12,"North West","OH Region",NA,NA,NA
+2019-10-12,"East","OH Region",NA,NA,NA
+2019-10-12,"Central","OH Region",NA,NA,NA
+2019-10-12,"East","OH Region",NA,NA,NA
+2019-10-12,"North East","OH Region",NA,NA,NA
+2019-10-12,"North East","OH Region",NA,NA,NA
+2019-10-12,"West","OH Region",NA,NA,NA
+2019-10-12,"North East","OH Region",NA,NA,NA
+2019-10-12,"Central","OH Region",NA,NA,NA
+2019-10-12,"West","OH Region",NA,NA,NA
+2019-10-12,"North West","OH Region",NA,NA,NA
+2019-10-12,"North East","OH Region",NA,NA,NA
+2019-10-12,"Toronto","OH Region",NA,NA,NA
+2019-10-12,"Central","OH Region",NA,NA,NA
+2019-10-12,"West","OH Region",NA,NA,NA
+2019-10-12,"Central","OH Region",NA,NA,NA
+2019-10-19,"Ontario","Province",NA,NA,NA
+2019-10-19,"North East","OH Region",NA,NA,NA
+2019-10-19,"West","OH Region",NA,NA,NA
+2019-10-19,"West","OH Region",NA,NA,NA
+2019-10-19,"West","OH Region",NA,NA,NA
+2019-10-19,"East","OH Region",NA,NA,NA
+2019-10-19,"East","OH Region",NA,NA,NA
+2019-10-19,"West","OH Region",NA,NA,NA
+2019-10-19,"West","OH Region",NA,NA,NA
+2019-10-19,"East","OH Region",NA,NA,NA
+2019-10-19,"Central","OH Region",NA,NA,NA
+2019-10-19,"East","OH Region",NA,NA,NA
+2019-10-19,"West","OH Region",NA,NA,NA
+2019-10-19,"East","OH Region",NA,NA,NA
+2019-10-19,"West","OH Region",NA,NA,NA
+2019-10-19,"East","OH Region",NA,NA,NA
+2019-10-19,"West","OH Region",NA,NA,NA
+2019-10-19,"West","OH Region",NA,NA,NA
+2019-10-19,"North East","OH Region",NA,NA,NA
+2019-10-19,"North West","OH Region",NA,NA,NA
+2019-10-19,"East","OH Region",NA,NA,NA
+2019-10-19,"Central","OH Region",NA,NA,NA
+2019-10-19,"East","OH Region",NA,NA,NA
+2019-10-19,"North East","OH Region",NA,NA,NA
+2019-10-19,"North East","OH Region",NA,NA,NA
+2019-10-19,"West","OH Region",NA,NA,NA
+2019-10-19,"North East","OH Region",NA,NA,NA
+2019-10-19,"Central","OH Region",NA,NA,NA
+2019-10-19,"West","OH Region",NA,NA,NA
+2019-10-19,"North West","OH Region",NA,NA,NA
+2019-10-19,"North East","OH Region",NA,NA,NA
+2019-10-19,"Toronto","OH Region",NA,NA,NA
+2019-10-19,"Central","OH Region",NA,NA,NA
+2019-10-19,"West","OH Region",NA,NA,NA
+2019-10-19,"Central","OH Region",NA,NA,NA
+2019-10-26,"Ontario","Province",NA,NA,NA
+2019-10-26,"North East","OH Region",NA,NA,NA
+2019-10-26,"West","OH Region",NA,NA,NA
+2019-10-26,"West","OH Region",NA,NA,NA
+2019-10-26,"West","OH Region",NA,NA,NA
+2019-10-26,"East","OH Region",NA,NA,NA
+2019-10-26,"East","OH Region",NA,NA,NA
+2019-10-26,"West","OH Region",NA,NA,NA
+2019-10-26,"West","OH Region",NA,NA,NA
+2019-10-26,"East","OH Region",NA,NA,NA
+2019-10-26,"Central","OH Region",NA,NA,NA
+2019-10-26,"East","OH Region",NA,NA,NA
+2019-10-26,"West","OH Region",NA,NA,NA
+2019-10-26,"East","OH Region",NA,NA,NA
+2019-10-26,"West","OH Region",NA,NA,NA
+2019-10-26,"East","OH Region",NA,NA,NA
+2019-10-26,"West","OH Region",NA,NA,NA
+2019-10-26,"West","OH Region",NA,NA,NA
+2019-10-26,"North East","OH Region",NA,NA,NA
+2019-10-26,"North West","OH Region",NA,NA,NA
+2019-10-26,"East","OH Region",NA,NA,NA
+2019-10-26,"Central","OH Region",NA,NA,NA
+2019-10-26,"East","OH Region",NA,NA,NA
+2019-10-26,"North East","OH Region",NA,NA,NA
+2019-10-26,"North East","OH Region",NA,NA,NA
+2019-10-26,"West","OH Region",NA,NA,NA
+2019-10-26,"North East","OH Region",NA,NA,NA
+2019-10-26,"Central","OH Region",NA,NA,NA
+2019-10-26,"West","OH Region",NA,NA,NA
+2019-10-26,"North West","OH Region",NA,NA,NA
+2019-10-26,"North East","OH Region",NA,NA,NA
+2019-10-26,"Toronto","OH Region",NA,NA,NA
+2019-10-26,"Central","OH Region",NA,NA,NA
+2019-10-26,"West","OH Region",NA,NA,NA
+2019-10-26,"Central","OH Region",NA,NA,NA
+2019-11-02,"Ontario","Province",NA,NA,NA
+2019-11-02,"North East","OH Region",NA,NA,NA
+2019-11-02,"West","OH Region",NA,NA,NA
+2019-11-02,"West","OH Region",NA,NA,NA
+2019-11-02,"West","OH Region",NA,NA,NA
+2019-11-02,"East","OH Region",NA,NA,NA
+2019-11-02,"East","OH Region",NA,NA,NA
+2019-11-02,"West","OH Region",NA,NA,NA
+2019-11-02,"West","OH Region",NA,NA,NA
+2019-11-02,"East","OH Region",NA,NA,NA
+2019-11-02,"Central","OH Region",NA,NA,NA
+2019-11-02,"East","OH Region",NA,NA,NA
+2019-11-02,"West","OH Region",NA,NA,NA
+2019-11-02,"East","OH Region",NA,NA,NA
+2019-11-02,"West","OH Region",NA,NA,NA
+2019-11-02,"East","OH Region",NA,NA,NA
+2019-11-02,"West","OH Region",NA,NA,NA
+2019-11-02,"West","OH Region",NA,NA,NA
+2019-11-02,"North East","OH Region",NA,NA,NA
+2019-11-02,"North West","OH Region",NA,NA,NA
+2019-11-02,"East","OH Region",NA,NA,NA
+2019-11-02,"Central","OH Region",NA,NA,NA
+2019-11-02,"East","OH Region",NA,NA,NA
+2019-11-02,"North East","OH Region",NA,NA,NA
+2019-11-02,"North East","OH Region",NA,NA,NA
+2019-11-02,"West","OH Region",NA,NA,NA
+2019-11-02,"North East","OH Region",NA,NA,NA
+2019-11-02,"Central","OH Region",NA,NA,NA
+2019-11-02,"West","OH Region",NA,NA,NA
+2019-11-02,"North West","OH Region",NA,NA,NA
+2019-11-02,"North East","OH Region",NA,NA,NA
+2019-11-02,"Toronto","OH Region",NA,NA,NA
+2019-11-02,"Central","OH Region",NA,NA,NA
+2019-11-02,"West","OH Region",NA,NA,NA
+2019-11-02,"Central","OH Region",NA,NA,NA
+2019-11-09,"Ontario","Province",NA,NA,NA
+2019-11-09,"North East","OH Region",NA,NA,NA
+2019-11-09,"West","OH Region",NA,NA,NA
+2019-11-09,"West","OH Region",NA,NA,NA
+2019-11-09,"West","OH Region",NA,NA,NA
+2019-11-09,"East","OH Region",NA,NA,NA
+2019-11-09,"East","OH Region",NA,NA,NA
+2019-11-09,"West","OH Region",NA,NA,NA
+2019-11-09,"West","OH Region",NA,NA,NA
+2019-11-09,"East","OH Region",NA,NA,NA
+2019-11-09,"Central","OH Region",NA,NA,NA
+2019-11-09,"East","OH Region",NA,NA,NA
+2019-11-09,"West","OH Region",NA,NA,NA
+2019-11-09,"East","OH Region",NA,NA,NA
+2019-11-09,"West","OH Region",NA,NA,NA
+2019-11-09,"East","OH Region",NA,NA,NA
+2019-11-09,"West","OH Region",NA,NA,NA
+2019-11-09,"West","OH Region",NA,NA,NA
+2019-11-09,"North East","OH Region",NA,NA,NA
+2019-11-09,"North West","OH Region",NA,NA,NA
+2019-11-09,"East","OH Region",NA,NA,NA
+2019-11-09,"Central","OH Region",NA,NA,NA
+2019-11-09,"East","OH Region",NA,NA,NA
+2019-11-09,"North East","OH Region",NA,NA,NA
+2019-11-09,"North East","OH Region",NA,NA,NA
+2019-11-09,"West","OH Region",NA,NA,NA
+2019-11-09,"North East","OH Region",NA,NA,NA
+2019-11-09,"Central","OH Region",NA,NA,NA
+2019-11-09,"West","OH Region",NA,NA,NA
+2019-11-09,"North West","OH Region",NA,NA,NA
+2019-11-09,"North East","OH Region",NA,NA,NA
+2019-11-09,"Toronto","OH Region",NA,NA,NA
+2019-11-09,"Central","OH Region",NA,NA,NA
+2019-11-09,"West","OH Region",NA,NA,NA
+2019-11-09,"Central","OH Region",NA,NA,NA
+2019-11-16,"Ontario","Province",NA,NA,NA
+2019-11-16,"North East","OH Region",NA,NA,NA
+2019-11-16,"West","OH Region",NA,NA,NA
+2019-11-16,"West","OH Region",NA,NA,NA
+2019-11-16,"West","OH Region",NA,NA,NA
+2019-11-16,"East","OH Region",NA,NA,NA
+2019-11-16,"East","OH Region",NA,NA,NA
+2019-11-16,"West","OH Region",NA,NA,NA
+2019-11-16,"West","OH Region",NA,NA,NA
+2019-11-16,"East","OH Region",NA,NA,NA
+2019-11-16,"Central","OH Region",NA,NA,NA
+2019-11-16,"East","OH Region",NA,NA,NA
+2019-11-16,"West","OH Region",NA,NA,NA
+2019-11-16,"East","OH Region",NA,NA,NA
+2019-11-16,"West","OH Region",NA,NA,NA
+2019-11-16,"East","OH Region",NA,NA,NA
+2019-11-16,"West","OH Region",NA,NA,NA
+2019-11-16,"West","OH Region",NA,NA,NA
+2019-11-16,"North East","OH Region",NA,NA,NA
+2019-11-16,"North West","OH Region",NA,NA,NA
+2019-11-16,"East","OH Region",NA,NA,NA
+2019-11-16,"Central","OH Region",NA,NA,NA
+2019-11-16,"East","OH Region",NA,NA,NA
+2019-11-16,"North East","OH Region",NA,NA,NA
+2019-11-16,"North East","OH Region",NA,NA,NA
+2019-11-16,"West","OH Region",NA,NA,NA
+2019-11-16,"North East","OH Region",NA,NA,NA
+2019-11-16,"Central","OH Region",NA,NA,NA
+2019-11-16,"West","OH Region",NA,NA,NA
+2019-11-16,"North West","OH Region",NA,NA,NA
+2019-11-16,"North East","OH Region",NA,NA,NA
+2019-11-16,"Toronto","OH Region",NA,NA,NA
+2019-11-16,"Central","OH Region",NA,NA,NA
+2019-11-16,"West","OH Region",NA,NA,NA
+2019-11-16,"Central","OH Region",NA,NA,NA
+2019-11-23,"Ontario","Province",NA,NA,NA
+2019-11-23,"North East","OH Region",NA,NA,NA
+2019-11-23,"West","OH Region",NA,NA,NA
+2019-11-23,"West","OH Region",NA,NA,NA
+2019-11-23,"West","OH Region",NA,NA,NA
+2019-11-23,"East","OH Region",NA,NA,NA
+2019-11-23,"East","OH Region",NA,NA,NA
+2019-11-23,"West","OH Region",NA,NA,NA
+2019-11-23,"West","OH Region",NA,NA,NA
+2019-11-23,"East","OH Region",NA,NA,NA
+2019-11-23,"Central","OH Region",NA,NA,NA
+2019-11-23,"East","OH Region",NA,NA,NA
+2019-11-23,"West","OH Region",NA,NA,NA
+2019-11-23,"East","OH Region",NA,NA,NA
+2019-11-23,"West","OH Region",NA,NA,NA
+2019-11-23,"East","OH Region",NA,NA,NA
+2019-11-23,"West","OH Region",NA,NA,NA
+2019-11-23,"West","OH Region",NA,NA,NA
+2019-11-23,"North East","OH Region",NA,NA,NA
+2019-11-23,"North West","OH Region",NA,NA,NA
+2019-11-23,"East","OH Region",NA,NA,NA
+2019-11-23,"Central","OH Region",NA,NA,NA
+2019-11-23,"East","OH Region",NA,NA,NA
+2019-11-23,"North East","OH Region",NA,NA,NA
+2019-11-23,"North East","OH Region",NA,NA,NA
+2019-11-23,"West","OH Region",NA,NA,NA
+2019-11-23,"North East","OH Region",NA,NA,NA
+2019-11-23,"Central","OH Region",NA,NA,NA
+2019-11-23,"West","OH Region",NA,NA,NA
+2019-11-23,"North West","OH Region",NA,NA,NA
+2019-11-23,"North East","OH Region",NA,NA,NA
+2019-11-23,"Toronto","OH Region",NA,NA,NA
+2019-11-23,"Central","OH Region",NA,NA,NA
+2019-11-23,"West","OH Region",NA,NA,NA
+2019-11-23,"Central","OH Region",NA,NA,NA
+2019-11-30,"Ontario","Province",NA,NA,NA
+2019-11-30,"North East","OH Region",NA,NA,NA
+2019-11-30,"West","OH Region",NA,NA,NA
+2019-11-30,"West","OH Region",NA,NA,NA
+2019-11-30,"West","OH Region",NA,NA,NA
+2019-11-30,"East","OH Region",NA,NA,NA
+2019-11-30,"East","OH Region",NA,NA,NA
+2019-11-30,"West","OH Region",NA,NA,NA
+2019-11-30,"West","OH Region",NA,NA,NA
+2019-11-30,"East","OH Region",NA,NA,NA
+2019-11-30,"Central","OH Region",NA,NA,NA
+2019-11-30,"East","OH Region",NA,NA,NA
+2019-11-30,"West","OH Region",NA,NA,NA
+2019-11-30,"East","OH Region",NA,NA,NA
+2019-11-30,"West","OH Region",NA,NA,NA
+2019-11-30,"East","OH Region",NA,NA,NA
+2019-11-30,"West","OH Region",NA,NA,NA
+2019-11-30,"West","OH Region",NA,NA,NA
+2019-11-30,"North East","OH Region",NA,NA,NA
+2019-11-30,"North West","OH Region",NA,NA,NA
+2019-11-30,"East","OH Region",NA,NA,NA
+2019-11-30,"Central","OH Region",NA,NA,NA
+2019-11-30,"East","OH Region",NA,NA,NA
+2019-11-30,"North East","OH Region",NA,NA,NA
+2019-11-30,"North East","OH Region",NA,NA,NA
+2019-11-30,"West","OH Region",NA,NA,NA
+2019-11-30,"North East","OH Region",NA,NA,NA
+2019-11-30,"Central","OH Region",NA,NA,NA
+2019-11-30,"West","OH Region",NA,NA,NA
+2019-11-30,"North West","OH Region",NA,NA,NA
+2019-11-30,"North East","OH Region",NA,NA,NA
+2019-11-30,"Toronto","OH Region",NA,NA,NA
+2019-11-30,"Central","OH Region",NA,NA,NA
+2019-11-30,"West","OH Region",NA,NA,NA
+2019-11-30,"Central","OH Region",NA,NA,NA
+2019-12-07,"Ontario","Province",NA,NA,NA
+2019-12-07,"North East","OH Region",NA,NA,NA
+2019-12-07,"West","OH Region",NA,NA,NA
+2019-12-07,"West","OH Region",NA,NA,NA
+2019-12-07,"West","OH Region",NA,NA,NA
+2019-12-07,"East","OH Region",NA,NA,NA
+2019-12-07,"East","OH Region",NA,NA,NA
+2019-12-07,"West","OH Region",NA,NA,NA
+2019-12-07,"West","OH Region",NA,NA,NA
+2019-12-07,"East","OH Region",NA,NA,NA
+2019-12-07,"Central","OH Region",NA,NA,NA
+2019-12-07,"East","OH Region",NA,NA,NA
+2019-12-07,"West","OH Region",NA,NA,NA
+2019-12-07,"East","OH Region",NA,NA,NA
+2019-12-07,"West","OH Region",NA,NA,NA
+2019-12-07,"East","OH Region",NA,NA,NA
+2019-12-07,"West","OH Region",NA,NA,NA
+2019-12-07,"West","OH Region",NA,NA,NA
+2019-12-07,"North East","OH Region",NA,NA,NA
+2019-12-07,"North West","OH Region",NA,NA,NA
+2019-12-07,"East","OH Region",NA,NA,NA
+2019-12-07,"Central","OH Region",NA,NA,NA
+2019-12-07,"East","OH Region",NA,NA,NA
+2019-12-07,"North East","OH Region",NA,NA,NA
+2019-12-07,"North East","OH Region",NA,NA,NA
+2019-12-07,"West","OH Region",NA,NA,NA
+2019-12-07,"North East","OH Region",NA,NA,NA
+2019-12-07,"Central","OH Region",NA,NA,NA
+2019-12-07,"West","OH Region",NA,NA,NA
+2019-12-07,"North West","OH Region",NA,NA,NA
+2019-12-07,"North East","OH Region",NA,NA,NA
+2019-12-07,"Toronto","OH Region",NA,NA,NA
+2019-12-07,"Central","OH Region",NA,NA,NA
+2019-12-07,"West","OH Region",NA,NA,NA
+2019-12-07,"Central","OH Region",NA,NA,NA
+2019-12-14,"Ontario","Province",NA,NA,NA
+2019-12-14,"North East","OH Region",NA,NA,NA
+2019-12-14,"West","OH Region",NA,NA,NA
+2019-12-14,"West","OH Region",NA,NA,NA
+2019-12-14,"West","OH Region",NA,NA,NA
+2019-12-14,"East","OH Region",NA,NA,NA
+2019-12-14,"East","OH Region",NA,NA,NA
+2019-12-14,"West","OH Region",NA,NA,NA
+2019-12-14,"West","OH Region",NA,NA,NA
+2019-12-14,"East","OH Region",NA,NA,NA
+2019-12-14,"Central","OH Region",NA,NA,NA
+2019-12-14,"East","OH Region",NA,NA,NA
+2019-12-14,"West","OH Region",NA,NA,NA
+2019-12-14,"East","OH Region",NA,NA,NA
+2019-12-14,"West","OH Region",NA,NA,NA
+2019-12-14,"East","OH Region",NA,NA,NA
+2019-12-14,"West","OH Region",NA,NA,NA
+2019-12-14,"West","OH Region",NA,NA,NA
+2019-12-14,"North East","OH Region",NA,NA,NA
+2019-12-14,"North West","OH Region",NA,NA,NA
+2019-12-14,"East","OH Region",NA,NA,NA
+2019-12-14,"Central","OH Region",NA,NA,NA
+2019-12-14,"East","OH Region",NA,NA,NA
+2019-12-14,"North East","OH Region",NA,NA,NA
+2019-12-14,"North East","OH Region",NA,NA,NA
+2019-12-14,"West","OH Region",NA,NA,NA
+2019-12-14,"North East","OH Region",NA,NA,NA
+2019-12-14,"Central","OH Region",NA,NA,NA
+2019-12-14,"West","OH Region",NA,NA,NA
+2019-12-14,"North West","OH Region",NA,NA,NA
+2019-12-14,"North East","OH Region",NA,NA,NA
+2019-12-14,"Toronto","OH Region",NA,NA,NA
+2019-12-14,"Central","OH Region",NA,NA,NA
+2019-12-14,"West","OH Region",NA,NA,NA
+2019-12-14,"Central","OH Region",NA,NA,NA
+2019-12-21,"Ontario","Province",NA,NA,NA
+2019-12-21,"North East","OH Region",NA,NA,NA
+2019-12-21,"West","OH Region",NA,NA,NA
+2019-12-21,"West","OH Region",NA,NA,NA
+2019-12-21,"West","OH Region",NA,NA,NA
+2019-12-21,"East","OH Region",NA,NA,NA
+2019-12-21,"East","OH Region",NA,NA,NA
+2019-12-21,"West","OH Region",NA,NA,NA
+2019-12-21,"West","OH Region",NA,NA,NA
+2019-12-21,"East","OH Region",NA,NA,NA
+2019-12-21,"Central","OH Region",NA,NA,NA
+2019-12-21,"East","OH Region",NA,NA,NA
+2019-12-21,"West","OH Region",NA,NA,NA
+2019-12-21,"East","OH Region",NA,NA,NA
+2019-12-21,"West","OH Region",NA,NA,NA
+2019-12-21,"East","OH Region",NA,NA,NA
+2019-12-21,"West","OH Region",NA,NA,NA
+2019-12-21,"West","OH Region",NA,NA,NA
+2019-12-21,"North East","OH Region",NA,NA,NA
+2019-12-21,"North West","OH Region",NA,NA,NA
+2019-12-21,"East","OH Region",NA,NA,NA
+2019-12-21,"Central","OH Region",NA,NA,NA
+2019-12-21,"East","OH Region",NA,NA,NA
+2019-12-21,"North East","OH Region",NA,NA,NA
+2019-12-21,"North East","OH Region",NA,NA,NA
+2019-12-21,"West","OH Region",NA,NA,NA
+2019-12-21,"North East","OH Region",NA,NA,NA
+2019-12-21,"Central","OH Region",NA,NA,NA
+2019-12-21,"West","OH Region",NA,NA,NA
+2019-12-21,"North West","OH Region",NA,NA,NA
+2019-12-21,"North East","OH Region",NA,NA,NA
+2019-12-21,"Toronto","OH Region",NA,NA,NA
+2019-12-21,"Central","OH Region",NA,NA,NA
+2019-12-21,"West","OH Region",NA,NA,NA
+2019-12-21,"Central","OH Region",NA,NA,NA
+2019-12-28,"Ontario","Province",NA,NA,NA
+2019-12-28,"North East","OH Region",NA,NA,NA
+2019-12-28,"West","OH Region",NA,NA,NA
+2019-12-28,"West","OH Region",NA,NA,NA
+2019-12-28,"West","OH Region",NA,NA,NA
+2019-12-28,"East","OH Region",NA,NA,NA
+2019-12-28,"East","OH Region",NA,NA,NA
+2019-12-28,"West","OH Region",NA,NA,NA
+2019-12-28,"West","OH Region",NA,NA,NA
+2019-12-28,"East","OH Region",NA,NA,NA
+2019-12-28,"Central","OH Region",NA,NA,NA
+2019-12-28,"East","OH Region",NA,NA,NA
+2019-12-28,"West","OH Region",NA,NA,NA
+2019-12-28,"East","OH Region",NA,NA,NA
+2019-12-28,"West","OH Region",NA,NA,NA
+2019-12-28,"East","OH Region",NA,NA,NA
+2019-12-28,"West","OH Region",NA,NA,NA
+2019-12-28,"West","OH Region",NA,NA,NA
+2019-12-28,"North East","OH Region",NA,NA,NA
+2019-12-28,"North West","OH Region",NA,NA,NA
+2019-12-28,"East","OH Region",NA,NA,NA
+2019-12-28,"Central","OH Region",NA,NA,NA
+2019-12-28,"East","OH Region",NA,NA,NA
+2019-12-28,"North East","OH Region",NA,NA,NA
+2019-12-28,"North East","OH Region",NA,NA,NA
+2019-12-28,"West","OH Region",NA,NA,NA
+2019-12-28,"North East","OH Region",NA,NA,NA
+2019-12-28,"Central","OH Region",NA,NA,NA
+2019-12-28,"West","OH Region",NA,NA,NA
+2019-12-28,"North West","OH Region",NA,NA,NA
+2019-12-28,"North East","OH Region",NA,NA,NA
+2019-12-28,"Toronto","OH Region",NA,NA,NA
+2019-12-28,"Central","OH Region",NA,NA,NA
+2019-12-28,"West","OH Region",NA,NA,NA
+2019-12-28,"Central","OH Region",NA,NA,NA
+2020-01-04,"Ontario","Province",NA,NA,NA
+2020-01-04,"North East","OH Region",NA,NA,NA
+2020-01-04,"West","OH Region",NA,NA,NA
+2020-01-04,"West","OH Region",NA,NA,NA
+2020-01-04,"West","OH Region",NA,NA,NA
+2020-01-04,"East","OH Region",NA,NA,NA
+2020-01-04,"East","OH Region",NA,NA,NA
+2020-01-04,"West","OH Region",NA,NA,NA
+2020-01-04,"West","OH Region",NA,NA,NA
+2020-01-04,"East","OH Region",NA,NA,NA
+2020-01-04,"Central","OH Region",NA,NA,NA
+2020-01-04,"East","OH Region",NA,NA,NA
+2020-01-04,"West","OH Region",NA,NA,NA
+2020-01-04,"East","OH Region",NA,NA,NA
+2020-01-04,"West","OH Region",NA,NA,NA
+2020-01-04,"East","OH Region",NA,NA,NA
+2020-01-04,"West","OH Region",NA,NA,NA
+2020-01-04,"West","OH Region",NA,NA,NA
+2020-01-04,"North East","OH Region",NA,NA,NA
+2020-01-04,"North West","OH Region",NA,NA,NA
+2020-01-04,"East","OH Region",NA,NA,NA
+2020-01-04,"Central","OH Region",NA,NA,NA
+2020-01-04,"East","OH Region",NA,NA,NA
+2020-01-04,"North East","OH Region",NA,NA,NA
+2020-01-04,"North East","OH Region",NA,NA,NA
+2020-01-04,"West","OH Region",NA,NA,NA
+2020-01-04,"North East","OH Region",NA,NA,NA
+2020-01-04,"Central","OH Region",NA,NA,NA
+2020-01-04,"West","OH Region",NA,NA,NA
+2020-01-04,"North West","OH Region",NA,NA,NA
+2020-01-04,"North East","OH Region",NA,NA,NA
+2020-01-04,"Toronto","OH Region",NA,NA,NA
+2020-01-04,"Central","OH Region",NA,NA,NA
+2020-01-04,"West","OH Region",NA,NA,NA
+2020-01-04,"Central","OH Region",NA,NA,NA
+2020-01-11,"Ontario","Province",NA,NA,NA
+2020-01-11,"North East","OH Region",NA,NA,NA
+2020-01-11,"West","OH Region",NA,NA,NA
+2020-01-11,"West","OH Region",NA,NA,NA
+2020-01-11,"West","OH Region",NA,NA,NA
+2020-01-11,"East","OH Region",NA,NA,NA
+2020-01-11,"East","OH Region",NA,NA,NA
+2020-01-11,"West","OH Region",NA,NA,NA
+2020-01-11,"West","OH Region",NA,NA,NA
+2020-01-11,"East","OH Region",NA,NA,NA
+2020-01-11,"Central","OH Region",NA,NA,NA
+2020-01-11,"East","OH Region",NA,NA,NA
+2020-01-11,"West","OH Region",NA,NA,NA
+2020-01-11,"East","OH Region",NA,NA,NA
+2020-01-11,"West","OH Region",NA,NA,NA
+2020-01-11,"East","OH Region",NA,NA,NA
+2020-01-11,"West","OH Region",NA,NA,NA
+2020-01-11,"West","OH Region",NA,NA,NA
+2020-01-11,"North East","OH Region",NA,NA,NA
+2020-01-11,"North West","OH Region",NA,NA,NA
+2020-01-11,"East","OH Region",NA,NA,NA
+2020-01-11,"Central","OH Region",NA,NA,NA
+2020-01-11,"East","OH Region",NA,NA,NA
+2020-01-11,"North East","OH Region",NA,NA,NA
+2020-01-11,"North East","OH Region",NA,NA,NA
+2020-01-11,"West","OH Region",NA,NA,NA
+2020-01-11,"North East","OH Region",NA,NA,NA
+2020-01-11,"Central","OH Region",NA,NA,NA
+2020-01-11,"West","OH Region",NA,NA,NA
+2020-01-11,"North West","OH Region",NA,NA,NA
+2020-01-11,"North East","OH Region",NA,NA,NA
+2020-01-11,"Toronto","OH Region",NA,NA,NA
+2020-01-11,"Central","OH Region",NA,NA,NA
+2020-01-11,"West","OH Region",NA,NA,NA
+2020-01-11,"Central","OH Region",NA,NA,NA
+2020-01-18,"Ontario","Province",NA,NA,NA
+2020-01-18,"North East","OH Region",NA,NA,NA
+2020-01-18,"West","OH Region",NA,NA,NA
+2020-01-18,"West","OH Region",NA,NA,NA
+2020-01-18,"West","OH Region",NA,NA,NA
+2020-01-18,"East","OH Region",NA,NA,NA
+2020-01-18,"East","OH Region",NA,NA,NA
+2020-01-18,"West","OH Region",NA,NA,NA
+2020-01-18,"West","OH Region",NA,NA,NA
+2020-01-18,"East","OH Region",NA,NA,NA
+2020-01-18,"Central","OH Region",NA,NA,NA
+2020-01-18,"East","OH Region",NA,NA,NA
+2020-01-18,"West","OH Region",NA,NA,NA
+2020-01-18,"East","OH Region",NA,NA,NA
+2020-01-18,"West","OH Region",NA,NA,NA
+2020-01-18,"East","OH Region",NA,NA,NA
+2020-01-18,"West","OH Region",NA,NA,NA
+2020-01-18,"West","OH Region",NA,NA,NA
+2020-01-18,"North East","OH Region",NA,NA,NA
+2020-01-18,"North West","OH Region",NA,NA,NA
+2020-01-18,"East","OH Region",NA,NA,NA
+2020-01-18,"Central","OH Region",NA,NA,NA
+2020-01-18,"East","OH Region",NA,NA,NA
+2020-01-18,"North East","OH Region",NA,NA,NA
+2020-01-18,"North East","OH Region",NA,NA,NA
+2020-01-18,"West","OH Region",NA,NA,NA
+2020-01-18,"North East","OH Region",NA,NA,NA
+2020-01-18,"Central","OH Region",NA,NA,NA
+2020-01-18,"West","OH Region",NA,NA,NA
+2020-01-18,"North West","OH Region",NA,NA,NA
+2020-01-18,"North East","OH Region",NA,NA,NA
+2020-01-18,"Toronto","OH Region",NA,NA,NA
+2020-01-18,"Central","OH Region",NA,NA,NA
+2020-01-18,"West","OH Region",NA,NA,NA
+2020-01-18,"Central","OH Region",NA,NA,NA
+2020-01-25,"Ontario","Province",NA,NA,NA
+2020-01-25,"North East","OH Region",NA,NA,NA
+2020-01-25,"West","OH Region",NA,NA,NA
+2020-01-25,"West","OH Region",NA,NA,NA
+2020-01-25,"West","OH Region",NA,NA,NA
+2020-01-25,"East","OH Region",NA,NA,NA
+2020-01-25,"East","OH Region",NA,NA,NA
+2020-01-25,"West","OH Region",NA,NA,NA
+2020-01-25,"West","OH Region",NA,NA,NA
+2020-01-25,"East","OH Region",NA,NA,NA
+2020-01-25,"Central","OH Region",NA,NA,NA
+2020-01-25,"East","OH Region",NA,NA,NA
+2020-01-25,"West","OH Region",NA,NA,NA
+2020-01-25,"East","OH Region",NA,NA,NA
+2020-01-25,"West","OH Region",NA,NA,NA
+2020-01-25,"East","OH Region",NA,NA,NA
+2020-01-25,"West","OH Region",NA,NA,NA
+2020-01-25,"West","OH Region",NA,NA,NA
+2020-01-25,"North East","OH Region",NA,NA,NA
+2020-01-25,"North West","OH Region",NA,NA,NA
+2020-01-25,"East","OH Region",NA,NA,NA
+2020-01-25,"Central","OH Region",NA,NA,NA
+2020-01-25,"East","OH Region",NA,NA,NA
+2020-01-25,"North East","OH Region",NA,NA,NA
+2020-01-25,"North East","OH Region",NA,NA,NA
+2020-01-25,"West","OH Region",NA,NA,NA
+2020-01-25,"North East","OH Region",NA,NA,NA
+2020-01-25,"Central","OH Region",NA,NA,NA
+2020-01-25,"West","OH Region",NA,NA,NA
+2020-01-25,"North West","OH Region",NA,NA,NA
+2020-01-25,"North East","OH Region",NA,NA,NA
+2020-01-25,"Toronto","OH Region",NA,NA,NA
+2020-01-25,"Central","OH Region",NA,NA,NA
+2020-01-25,"West","OH Region",NA,NA,NA
+2020-01-25,"Central","OH Region",NA,NA,NA
+2020-02-01,"Ontario","Province",NA,NA,NA
+2020-02-01,"North East","OH Region",NA,NA,NA
+2020-02-01,"West","OH Region",NA,NA,NA
+2020-02-01,"West","OH Region",NA,NA,NA
+2020-02-01,"West","OH Region",NA,NA,NA
+2020-02-01,"East","OH Region",NA,NA,NA
+2020-02-01,"East","OH Region",NA,NA,NA
+2020-02-01,"West","OH Region",NA,NA,NA
+2020-02-01,"West","OH Region",NA,NA,NA
+2020-02-01,"East","OH Region",NA,NA,NA
+2020-02-01,"Central","OH Region",NA,NA,NA
+2020-02-01,"East","OH Region",NA,NA,NA
+2020-02-01,"West","OH Region",NA,NA,NA
+2020-02-01,"East","OH Region",NA,NA,NA
+2020-02-01,"West","OH Region",NA,NA,NA
+2020-02-01,"East","OH Region",NA,NA,NA
+2020-02-01,"West","OH Region",NA,NA,NA
+2020-02-01,"West","OH Region",NA,NA,NA
+2020-02-01,"North East","OH Region",NA,NA,NA
+2020-02-01,"North West","OH Region",NA,NA,NA
+2020-02-01,"East","OH Region",NA,NA,NA
+2020-02-01,"Central","OH Region",NA,NA,NA
+2020-02-01,"East","OH Region",NA,NA,NA
+2020-02-01,"North East","OH Region",NA,NA,NA
+2020-02-01,"North East","OH Region",NA,NA,NA
+2020-02-01,"West","OH Region",NA,NA,NA
+2020-02-01,"North East","OH Region",NA,NA,NA
+2020-02-01,"Central","OH Region",NA,NA,NA
+2020-02-01,"West","OH Region",NA,NA,NA
+2020-02-01,"North West","OH Region",NA,NA,NA
+2020-02-01,"North East","OH Region",NA,NA,NA
+2020-02-01,"Toronto","OH Region",NA,NA,NA
+2020-02-01,"Central","OH Region",NA,NA,NA
+2020-02-01,"West","OH Region",NA,NA,NA
+2020-02-01,"Central","OH Region",NA,NA,NA
+2020-02-08,"Ontario","Province",NA,NA,NA
+2020-02-08,"North East","OH Region",NA,NA,NA
+2020-02-08,"West","OH Region",NA,NA,NA
+2020-02-08,"West","OH Region",NA,NA,NA
+2020-02-08,"West","OH Region",NA,NA,NA
+2020-02-08,"East","OH Region",NA,NA,NA
+2020-02-08,"East","OH Region",NA,NA,NA
+2020-02-08,"West","OH Region",NA,NA,NA
+2020-02-08,"West","OH Region",NA,NA,NA
+2020-02-08,"East","OH Region",NA,NA,NA
+2020-02-08,"Central","OH Region",NA,NA,NA
+2020-02-08,"East","OH Region",NA,NA,NA
+2020-02-08,"West","OH Region",NA,NA,NA
+2020-02-08,"East","OH Region",NA,NA,NA
+2020-02-08,"West","OH Region",NA,NA,NA
+2020-02-08,"East","OH Region",NA,NA,NA
+2020-02-08,"West","OH Region",NA,NA,NA
+2020-02-08,"West","OH Region",NA,NA,NA
+2020-02-08,"North East","OH Region",NA,NA,NA
+2020-02-08,"North West","OH Region",NA,NA,NA
+2020-02-08,"East","OH Region",NA,NA,NA
+2020-02-08,"Central","OH Region",NA,NA,NA
+2020-02-08,"East","OH Region",NA,NA,NA
+2020-02-08,"North East","OH Region",NA,NA,NA
+2020-02-08,"North East","OH Region",NA,NA,NA
+2020-02-08,"West","OH Region",NA,NA,NA
+2020-02-08,"North East","OH Region",NA,NA,NA
+2020-02-08,"Central","OH Region",NA,NA,NA
+2020-02-08,"West","OH Region",NA,NA,NA
+2020-02-08,"North West","OH Region",NA,NA,NA
+2020-02-08,"North East","OH Region",NA,NA,NA
+2020-02-08,"Toronto","OH Region",NA,NA,NA
+2020-02-08,"Central","OH Region",NA,NA,NA
+2020-02-08,"West","OH Region",NA,NA,NA
+2020-02-08,"Central","OH Region",NA,NA,NA
+2020-02-15,"Ontario","Province",NA,NA,NA
+2020-02-15,"North East","OH Region",NA,NA,NA
+2020-02-15,"West","OH Region",NA,NA,NA
+2020-02-15,"West","OH Region",NA,NA,NA
+2020-02-15,"West","OH Region",NA,NA,NA
+2020-02-15,"East","OH Region",NA,NA,NA
+2020-02-15,"East","OH Region",NA,NA,NA
+2020-02-15,"West","OH Region",NA,NA,NA
+2020-02-15,"West","OH Region",NA,NA,NA
+2020-02-15,"East","OH Region",NA,NA,NA
+2020-02-15,"Central","OH Region",NA,NA,NA
+2020-02-15,"East","OH Region",NA,NA,NA
+2020-02-15,"West","OH Region",NA,NA,NA
+2020-02-15,"East","OH Region",NA,NA,NA
+2020-02-15,"West","OH Region",NA,NA,NA
+2020-02-15,"East","OH Region",NA,NA,NA
+2020-02-15,"West","OH Region",NA,NA,NA
+2020-02-15,"West","OH Region",NA,NA,NA
+2020-02-15,"North East","OH Region",NA,NA,NA
+2020-02-15,"North West","OH Region",NA,NA,NA
+2020-02-15,"East","OH Region",NA,NA,NA
+2020-02-15,"Central","OH Region",NA,NA,NA
+2020-02-15,"East","OH Region",NA,NA,NA
+2020-02-15,"North East","OH Region",NA,NA,NA
+2020-02-15,"North East","OH Region",NA,NA,NA
+2020-02-15,"West","OH Region",NA,NA,NA
+2020-02-15,"North East","OH Region",NA,NA,NA
+2020-02-15,"Central","OH Region",NA,NA,NA
+2020-02-15,"West","OH Region",NA,NA,NA
+2020-02-15,"North West","OH Region",NA,NA,NA
+2020-02-15,"North East","OH Region",NA,NA,NA
+2020-02-15,"Toronto","OH Region",NA,NA,NA
+2020-02-15,"Central","OH Region",NA,NA,NA
+2020-02-15,"West","OH Region",NA,NA,NA
+2020-02-15,"Central","OH Region",NA,NA,NA
+2020-02-22,"Ontario","Province",NA,NA,NA
+2020-02-22,"North East","OH Region",NA,NA,NA
+2020-02-22,"West","OH Region",NA,NA,NA
+2020-02-22,"West","OH Region",NA,NA,NA
+2020-02-22,"West","OH Region",NA,NA,NA
+2020-02-22,"East","OH Region",NA,NA,NA
+2020-02-22,"East","OH Region",NA,NA,NA
+2020-02-22,"West","OH Region",NA,NA,NA
+2020-02-22,"West","OH Region",NA,NA,NA
+2020-02-22,"East","OH Region",NA,NA,NA
+2020-02-22,"Central","OH Region",NA,NA,NA
+2020-02-22,"East","OH Region",NA,NA,NA
+2020-02-22,"West","OH Region",NA,NA,NA
+2020-02-22,"East","OH Region",NA,NA,NA
+2020-02-22,"West","OH Region",NA,NA,NA
+2020-02-22,"East","OH Region",NA,NA,NA
+2020-02-22,"West","OH Region",NA,NA,NA
+2020-02-22,"West","OH Region",NA,NA,NA
+2020-02-22,"North East","OH Region",NA,NA,NA
+2020-02-22,"North West","OH Region",NA,NA,NA
+2020-02-22,"East","OH Region",NA,NA,NA
+2020-02-22,"Central","OH Region",NA,NA,NA
+2020-02-22,"East","OH Region",NA,NA,NA
+2020-02-22,"North East","OH Region",NA,NA,NA
+2020-02-22,"North East","OH Region",NA,NA,NA
+2020-02-22,"West","OH Region",NA,NA,NA
+2020-02-22,"North East","OH Region",NA,NA,NA
+2020-02-22,"Central","OH Region",NA,NA,NA
+2020-02-22,"West","OH Region",NA,NA,NA
+2020-02-22,"North West","OH Region",NA,NA,NA
+2020-02-22,"North East","OH Region",NA,NA,NA
+2020-02-22,"Toronto","OH Region",NA,NA,NA
+2020-02-22,"Central","OH Region",NA,NA,NA
+2020-02-22,"West","OH Region",NA,NA,NA
+2020-02-22,"Central","OH Region",NA,NA,NA
+2020-02-29,"Ontario","Province",NA,NA,NA
+2020-02-29,"North East","OH Region",NA,NA,NA
+2020-02-29,"West","OH Region",NA,NA,NA
+2020-02-29,"West","OH Region",NA,NA,NA
+2020-02-29,"West","OH Region",NA,NA,NA
+2020-02-29,"East","OH Region",NA,NA,NA
+2020-02-29,"East","OH Region",NA,NA,NA
+2020-02-29,"West","OH Region",NA,NA,NA
+2020-02-29,"West","OH Region",NA,NA,NA
+2020-02-29,"East","OH Region",NA,NA,NA
+2020-02-29,"Central","OH Region",NA,NA,NA
+2020-02-29,"East","OH Region",NA,NA,NA
+2020-02-29,"West","OH Region",NA,NA,NA
+2020-02-29,"East","OH Region",NA,NA,NA
+2020-02-29,"West","OH Region",NA,NA,NA
+2020-02-29,"East","OH Region",NA,NA,NA
+2020-02-29,"West","OH Region",NA,NA,NA
+2020-02-29,"West","OH Region",NA,NA,NA
+2020-02-29,"North East","OH Region",NA,NA,NA
+2020-02-29,"North West","OH Region",NA,NA,NA
+2020-02-29,"East","OH Region",NA,NA,NA
+2020-02-29,"Central","OH Region",NA,NA,NA
+2020-02-29,"East","OH Region",NA,NA,NA
+2020-02-29,"North East","OH Region",NA,NA,NA
+2020-02-29,"North East","OH Region",NA,NA,NA
+2020-02-29,"West","OH Region",NA,NA,NA
+2020-02-29,"North East","OH Region",NA,NA,NA
+2020-02-29,"Central","OH Region",NA,NA,NA
+2020-02-29,"West","OH Region",NA,NA,NA
+2020-02-29,"North West","OH Region",NA,NA,NA
+2020-02-29,"North East","OH Region",NA,NA,NA
+2020-02-29,"Toronto","OH Region",NA,NA,NA
+2020-02-29,"Central","OH Region",NA,NA,NA
+2020-02-29,"West","OH Region",NA,NA,NA
+2020-02-29,"Central","OH Region",NA,NA,NA
+2020-03-07,"Ontario","Province",NA,NA,NA
+2020-03-07,"North East","OH Region",NA,NA,NA
+2020-03-07,"West","OH Region",NA,NA,NA
+2020-03-07,"West","OH Region",NA,NA,NA
+2020-03-07,"West","OH Region",NA,NA,NA
+2020-03-07,"East","OH Region",NA,NA,NA
+2020-03-07,"East","OH Region",NA,NA,NA
+2020-03-07,"West","OH Region",NA,NA,NA
+2020-03-07,"West","OH Region",NA,NA,NA
+2020-03-07,"East","OH Region",NA,NA,NA
+2020-03-07,"Central","OH Region",NA,NA,NA
+2020-03-07,"East","OH Region",NA,NA,NA
+2020-03-07,"West","OH Region",NA,NA,NA
+2020-03-07,"East","OH Region",NA,NA,NA
+2020-03-07,"West","OH Region",NA,NA,NA
+2020-03-07,"East","OH Region",NA,NA,NA
+2020-03-07,"West","OH Region",NA,NA,NA
+2020-03-07,"West","OH Region",NA,NA,NA
+2020-03-07,"North East","OH Region",NA,NA,NA
+2020-03-07,"North West","OH Region",NA,NA,NA
+2020-03-07,"East","OH Region",NA,NA,NA
+2020-03-07,"Central","OH Region",NA,NA,NA
+2020-03-07,"East","OH Region",NA,NA,NA
+2020-03-07,"North East","OH Region",NA,NA,NA
+2020-03-07,"North East","OH Region",NA,NA,NA
+2020-03-07,"West","OH Region",NA,NA,NA
+2020-03-07,"North East","OH Region",NA,NA,NA
+2020-03-07,"Central","OH Region",NA,NA,NA
+2020-03-07,"West","OH Region",NA,NA,NA
+2020-03-07,"North West","OH Region",NA,NA,NA
+2020-03-07,"North East","OH Region",NA,NA,NA
+2020-03-07,"Toronto","OH Region",NA,NA,NA
+2020-03-07,"Central","OH Region",NA,NA,NA
+2020-03-07,"West","OH Region",NA,NA,NA
+2020-03-07,"Central","OH Region",NA,NA,NA
+2020-03-14,"Ontario","Province",NA,NA,NA
+2020-03-14,"North East","OH Region",NA,NA,NA
+2020-03-14,"West","OH Region",NA,NA,NA
+2020-03-14,"West","OH Region",NA,NA,NA
+2020-03-14,"West","OH Region",NA,NA,NA
+2020-03-14,"East","OH Region",NA,NA,NA
+2020-03-14,"East","OH Region",NA,NA,NA
+2020-03-14,"West","OH Region",NA,NA,NA
+2020-03-14,"West","OH Region",NA,NA,NA
+2020-03-14,"East","OH Region",NA,NA,NA
+2020-03-14,"Central","OH Region",NA,NA,NA
+2020-03-14,"East","OH Region",NA,NA,NA
+2020-03-14,"West","OH Region",NA,NA,NA
+2020-03-14,"East","OH Region",NA,NA,NA
+2020-03-14,"West","OH Region",NA,NA,NA
+2020-03-14,"East","OH Region",NA,NA,NA
+2020-03-14,"West","OH Region",NA,NA,NA
+2020-03-14,"West","OH Region",NA,NA,NA
+2020-03-14,"North East","OH Region",NA,NA,NA
+2020-03-14,"North West","OH Region",NA,NA,NA
+2020-03-14,"East","OH Region",NA,NA,NA
+2020-03-14,"Central","OH Region",NA,NA,NA
+2020-03-14,"East","OH Region",NA,NA,NA
+2020-03-14,"North East","OH Region",NA,NA,NA
+2020-03-14,"North East","OH Region",NA,NA,NA
+2020-03-14,"West","OH Region",NA,NA,NA
+2020-03-14,"North East","OH Region",NA,NA,NA
+2020-03-14,"Central","OH Region",NA,NA,NA
+2020-03-14,"West","OH Region",NA,NA,NA
+2020-03-14,"North West","OH Region",NA,NA,NA
+2020-03-14,"North East","OH Region",NA,NA,NA
+2020-03-14,"Toronto","OH Region",NA,NA,NA
+2020-03-14,"Central","OH Region",NA,NA,NA
+2020-03-14,"West","OH Region",NA,NA,NA
+2020-03-14,"Central","OH Region",NA,NA,NA
+2020-03-21,"Ontario","Province",NA,NA,NA
+2020-03-21,"North East","OH Region",NA,NA,NA
+2020-03-21,"West","OH Region",NA,NA,NA
+2020-03-21,"West","OH Region",NA,NA,NA
+2020-03-21,"West","OH Region",NA,NA,NA
+2020-03-21,"East","OH Region",NA,NA,NA
+2020-03-21,"East","OH Region",NA,NA,NA
+2020-03-21,"West","OH Region",NA,NA,NA
+2020-03-21,"West","OH Region",NA,NA,NA
+2020-03-21,"East","OH Region",NA,NA,NA
+2020-03-21,"Central","OH Region",NA,NA,NA
+2020-03-21,"East","OH Region",NA,NA,NA
+2020-03-21,"West","OH Region",NA,NA,NA
+2020-03-21,"East","OH Region",NA,NA,NA
+2020-03-21,"West","OH Region",NA,NA,NA
+2020-03-21,"East","OH Region",NA,NA,NA
+2020-03-21,"West","OH Region",NA,NA,NA
+2020-03-21,"West","OH Region",NA,NA,NA
+2020-03-21,"North East","OH Region",NA,NA,NA
+2020-03-21,"North West","OH Region",NA,NA,NA
+2020-03-21,"East","OH Region",NA,NA,NA
+2020-03-21,"Central","OH Region",NA,NA,NA
+2020-03-21,"East","OH Region",NA,NA,NA
+2020-03-21,"North East","OH Region",NA,NA,NA
+2020-03-21,"North East","OH Region",NA,NA,NA
+2020-03-21,"West","OH Region",NA,NA,NA
+2020-03-21,"North East","OH Region",NA,NA,NA
+2020-03-21,"Central","OH Region",NA,NA,NA
+2020-03-21,"West","OH Region",NA,NA,NA
+2020-03-21,"North West","OH Region",NA,NA,NA
+2020-03-21,"North East","OH Region",NA,NA,NA
+2020-03-21,"Toronto","OH Region",NA,NA,NA
+2020-03-21,"Central","OH Region",NA,NA,NA
+2020-03-21,"West","OH Region",NA,NA,NA
+2020-03-21,"Central","OH Region",NA,NA,NA
+2020-03-28,"Ontario","Province",NA,NA,NA
+2020-03-28,"North East","OH Region",NA,NA,NA
+2020-03-28,"West","OH Region",NA,NA,NA
+2020-03-28,"West","OH Region",NA,NA,NA
+2020-03-28,"West","OH Region",NA,NA,NA
+2020-03-28,"East","OH Region",NA,NA,NA
+2020-03-28,"East","OH Region",NA,NA,NA
+2020-03-28,"West","OH Region",NA,NA,NA
+2020-03-28,"West","OH Region",NA,NA,NA
+2020-03-28,"East","OH Region",NA,NA,NA
+2020-03-28,"Central","OH Region",NA,NA,NA
+2020-03-28,"East","OH Region",NA,NA,NA
+2020-03-28,"West","OH Region",NA,NA,NA
+2020-03-28,"East","OH Region",NA,NA,NA
+2020-03-28,"West","OH Region",NA,NA,NA
+2020-03-28,"East","OH Region",NA,NA,NA
+2020-03-28,"West","OH Region",NA,NA,NA
+2020-03-28,"West","OH Region",NA,NA,NA
+2020-03-28,"North East","OH Region",NA,NA,NA
+2020-03-28,"North West","OH Region",NA,NA,NA
+2020-03-28,"East","OH Region",NA,NA,NA
+2020-03-28,"Central","OH Region",NA,NA,NA
+2020-03-28,"East","OH Region",NA,NA,NA
+2020-03-28,"North East","OH Region",NA,NA,NA
+2020-03-28,"North East","OH Region",NA,NA,NA
+2020-03-28,"West","OH Region",NA,NA,NA
+2020-03-28,"North East","OH Region",NA,NA,NA
+2020-03-28,"Central","OH Region",NA,NA,NA
+2020-03-28,"West","OH Region",NA,NA,NA
+2020-03-28,"North West","OH Region",NA,NA,NA
+2020-03-28,"North East","OH Region",NA,NA,NA
+2020-03-28,"Toronto","OH Region",NA,NA,NA
+2020-03-28,"Central","OH Region",NA,NA,NA
+2020-03-28,"West","OH Region",NA,NA,NA
+2020-03-28,"Central","OH Region",NA,NA,NA
+2020-04-04,"Ontario","Province",287,NA,NA
+2020-04-04,"North East","OH Region",0,NA,NA
+2020-04-04,"West","OH Region",2,NA,NA
+2020-04-04,"West","OH Region",1,NA,NA
+2020-04-04,"West","OH Region",5,NA,NA
+2020-04-04,"East","OH Region",20,NA,NA
+2020-04-04,"East","OH Region",2,NA,NA
+2020-04-04,"West","OH Region",0,NA,NA
+2020-04-04,"West","OH Region",2,NA,NA
+2020-04-04,"East","OH Region",3,NA,NA
+2020-04-04,"Central","OH Region",14,NA,NA
+2020-04-04,"East","OH Region",2,NA,NA
+2020-04-04,"West","OH Region",0,NA,NA
+2020-04-04,"East","OH Region",3,NA,NA
+2020-04-04,"West","OH Region",16,NA,NA
+2020-04-04,"East","OH Region",1,NA,NA
+2020-04-04,"West","OH Region",14,NA,NA
+2020-04-04,"West","OH Region",8,NA,NA
+2020-04-04,"North East","OH Region",1,NA,NA
+2020-04-04,"North West","OH Region",0,NA,NA
+2020-04-04,"East","OH Region",16,NA,NA
+2020-04-04,"Central","OH Region",30,NA,NA
+2020-04-04,"East","OH Region",2,NA,NA
+2020-04-04,"North East","OH Region",3,NA,NA
+2020-04-04,"North East","OH Region",2,NA,NA
+2020-04-04,"West","OH Region",14,NA,NA
+2020-04-04,"North East","OH Region",0,NA,NA
+2020-04-04,"Central","OH Region",3,NA,NA
+2020-04-04,"West","OH Region",4,NA,NA
+2020-04-04,"North West","OH Region",1,NA,NA
+2020-04-04,"North East","OH Region",1,NA,NA
+2020-04-04,"Toronto","OH Region",81,NA,NA
+2020-04-04,"Central","OH Region",6,NA,NA
+2020-04-04,"West","OH Region",12,NA,NA
+2020-04-04,"Central","OH Region",29,NA,NA
+2020-04-11,"Ontario","Province",666,NA,NA
+2020-04-11,"North East","OH Region",0,NA,NA
+2020-04-11,"West","OH Region",4,NA,NA
+2020-04-11,"West","OH Region",1,NA,NA
+2020-04-11,"West","OH Region",18,NA,NA
+2020-04-11,"East","OH Region",31,NA,NA
+2020-04-11,"East","OH Region",3,NA,NA
+2020-04-11,"West","OH Region",0,NA,NA
+2020-04-11,"West","OH Region",3,NA,NA
+2020-04-11,"East","OH Region",3,NA,NA
+2020-04-11,"Central","OH Region",24,NA,NA
+2020-04-11,"East","OH Region",2,NA,NA
+2020-04-11,"West","OH Region",1,NA,NA
+2020-04-11,"East","OH Region",4,NA,NA
+2020-04-11,"West","OH Region",28,NA,NA
+2020-04-11,"East","OH Region",5,NA,NA
+2020-04-11,"West","OH Region",27,NA,NA
+2020-04-11,"West","OH Region",28,NA,NA
+2020-04-11,"North East","OH Region",1,NA,NA
+2020-04-11,"North West","OH Region",1,NA,NA
+2020-04-11,"East","OH Region",50,NA,NA
+2020-04-11,"Central","OH Region",75,NA,NA
+2020-04-11,"East","OH Region",3,NA,NA
+2020-04-11,"North East","OH Region",3,NA,NA
+2020-04-11,"North East","OH Region",5,NA,NA
+2020-04-11,"West","OH Region",24,NA,NA
+2020-04-11,"North East","OH Region",0,NA,NA
+2020-04-11,"Central","OH Region",5,NA,NA
+2020-04-11,"West","OH Region",6,NA,NA
+2020-04-11,"North West","OH Region",2,NA,NA
+2020-04-11,"North East","OH Region",1,NA,NA
+2020-04-11,"Toronto","OH Region",224,NA,NA
+2020-04-11,"Central","OH Region",11,NA,NA
+2020-04-11,"West","OH Region",24,NA,NA
+2020-04-11,"Central","OH Region",60,NA,NA
+2020-04-18,"Ontario","Province",794,NA,NA
+2020-04-18,"North East","OH Region",0,NA,NA
+2020-04-18,"West","OH Region",4,NA,NA
+2020-04-18,"West","OH Region",0,NA,NA
+2020-04-18,"West","OH Region",19,NA,NA
+2020-04-18,"East","OH Region",21,NA,NA
+2020-04-18,"East","OH Region",1,NA,NA
+2020-04-18,"West","OH Region",1,NA,NA
+2020-04-18,"West","OH Region",2,NA,NA
+2020-04-18,"East","OH Region",2,NA,NA
+2020-04-18,"Central","OH Region",22,NA,NA
+2020-04-18,"East","OH Region",2,NA,NA
+2020-04-18,"West","OH Region",1,NA,NA
+2020-04-18,"East","OH Region",1,NA,NA
+2020-04-18,"West","OH Region",21,NA,NA
+2020-04-18,"East","OH Region",6,NA,NA
+2020-04-18,"West","OH Region",29,NA,NA
+2020-04-18,"West","OH Region",28,NA,NA
+2020-04-18,"North East","OH Region",2,NA,NA
+2020-04-18,"North West","OH Region",1,NA,NA
+2020-04-18,"East","OH Region",56,NA,NA
+2020-04-18,"Central","OH Region",108,NA,NA
+2020-04-18,"East","OH Region",2,NA,NA
+2020-04-18,"North East","OH Region",3,NA,NA
+2020-04-18,"North East","OH Region",3,NA,NA
+2020-04-18,"West","OH Region",21,NA,NA
+2020-04-18,"North East","OH Region",0,NA,NA
+2020-04-18,"Central","OH Region",4,NA,NA
+2020-04-18,"West","OH Region",4,NA,NA
+2020-04-18,"North West","OH Region",2,NA,NA
+2020-04-18,"North East","OH Region",1,NA,NA
+2020-04-18,"Toronto","OH Region",334,NA,NA
+2020-04-18,"Central","OH Region",12,NA,NA
+2020-04-18,"West","OH Region",25,NA,NA
+2020-04-18,"Central","OH Region",67,NA,NA
+2020-04-25,"Ontario","Province",901,NA,NA
+2020-04-25,"North East","OH Region",0,NA,NA
+2020-04-25,"West","OH Region",6,NA,NA
+2020-04-25,"West","OH Region",1,NA,NA
+2020-04-25,"West","OH Region",23,NA,NA
+2020-04-25,"East","OH Region",26,NA,NA
+2020-04-25,"East","OH Region",1,NA,NA
+2020-04-25,"West","OH Region",0,NA,NA
+2020-04-25,"West","OH Region",1,NA,NA
+2020-04-25,"East","OH Region",2,NA,NA
+2020-04-25,"Central","OH Region",19,NA,NA
+2020-04-25,"East","OH Region",2,NA,NA
+2020-04-25,"West","OH Region",1,NA,NA
+2020-04-25,"East","OH Region",2,NA,NA
+2020-04-25,"West","OH Region",13,NA,NA
+2020-04-25,"East","OH Region",8,NA,NA
+2020-04-25,"West","OH Region",32,NA,NA
+2020-04-25,"West","OH Region",27,NA,NA
+2020-04-25,"North East","OH Region",2,NA,NA
+2020-04-25,"North West","OH Region",0,NA,NA
+2020-04-25,"East","OH Region",50,NA,NA
+2020-04-25,"Central","OH Region",134,NA,NA
+2020-04-25,"East","OH Region",2,NA,NA
+2020-04-25,"North East","OH Region",4,NA,NA
+2020-04-25,"North East","OH Region",3,NA,NA
+2020-04-25,"West","OH Region",31,NA,NA
+2020-04-25,"North East","OH Region",0,NA,NA
+2020-04-25,"Central","OH Region",4,NA,NA
+2020-04-25,"West","OH Region",2,NA,NA
+2020-04-25,"North West","OH Region",4,NA,NA
+2020-04-25,"North East","OH Region",0,NA,NA
+2020-04-25,"Toronto","OH Region",399,NA,NA
+2020-04-25,"Central","OH Region",11,NA,NA
+2020-04-25,"West","OH Region",27,NA,NA
+2020-04-25,"Central","OH Region",74,NA,NA
+2020-05-02,"Ontario","Province",1002,NA,NA
+2020-05-02,"North East","OH Region",0,NA,NA
+2020-05-02,"West","OH Region",5,NA,NA
+2020-05-02,"West","OH Region",1,NA,NA
+2020-05-02,"West","OH Region",31,NA,NA
+2020-05-02,"East","OH Region",43,NA,NA
+2020-05-02,"East","OH Region",1,NA,NA
+2020-05-02,"West","OH Region",0,NA,NA
+2020-05-02,"West","OH Region",1,NA,NA
+2020-05-02,"East","OH Region",3,NA,NA
+2020-05-02,"Central","OH Region",14,NA,NA
+2020-05-02,"East","OH Region",1,NA,NA
+2020-05-02,"West","OH Region",0,NA,NA
+2020-05-02,"East","OH Region",1,NA,NA
+2020-05-02,"West","OH Region",11,NA,NA
+2020-05-02,"East","OH Region",9,NA,NA
+2020-05-02,"West","OH Region",31,NA,NA
+2020-05-02,"West","OH Region",27,NA,NA
+2020-05-02,"North East","OH Region",1,NA,NA
+2020-05-02,"North West","OH Region",0,NA,NA
+2020-05-02,"East","OH Region",60,NA,NA
+2020-05-02,"Central","OH Region",158,NA,NA
+2020-05-02,"East","OH Region",2,NA,NA
+2020-05-02,"North East","OH Region",5,NA,NA
+2020-05-02,"North East","OH Region",3,NA,NA
+2020-05-02,"West","OH Region",62,NA,NA
+2020-05-02,"North East","OH Region",0,NA,NA
+2020-05-02,"Central","OH Region",3,NA,NA
+2020-05-02,"West","OH Region",2,NA,NA
+2020-05-02,"North West","OH Region",2,NA,NA
+2020-05-02,"North East","OH Region",1,NA,NA
+2020-05-02,"Toronto","OH Region",433,NA,NA
+2020-05-02,"Central","OH Region",12,NA,NA
+2020-05-02,"West","OH Region",21,NA,NA
+2020-05-02,"Central","OH Region",69,NA,NA
+2020-05-09,"Ontario","Province",1047,NA,NA
+2020-05-09,"North East","OH Region",1,NA,NA
+2020-05-09,"West","OH Region",4,NA,NA
+2020-05-09,"West","OH Region",1,NA,NA
+2020-05-09,"West","OH Region",23,NA,NA
+2020-05-09,"East","OH Region",47,NA,NA
+2020-05-09,"East","OH Region",0,NA,NA
+2020-05-09,"West","OH Region",0,NA,NA
+2020-05-09,"West","OH Region",1,NA,NA
+2020-05-09,"East","OH Region",2,NA,NA
+2020-05-09,"Central","OH Region",13,NA,NA
+2020-05-09,"East","OH Region",1,NA,NA
+2020-05-09,"West","OH Region",1,NA,NA
+2020-05-09,"East","OH Region",0,NA,NA
+2020-05-09,"West","OH Region",8,NA,NA
+2020-05-09,"East","OH Region",9,NA,NA
+2020-05-09,"West","OH Region",25,NA,NA
+2020-05-09,"West","OH Region",36,NA,NA
+2020-05-09,"North East","OH Region",0,NA,NA
+2020-05-09,"North West","OH Region",0,NA,NA
+2020-05-09,"East","OH Region",57,NA,NA
+2020-05-09,"Central","OH Region",149,NA,NA
+2020-05-09,"East","OH Region",2,NA,NA
+2020-05-09,"North East","OH Region",5,NA,NA
+2020-05-09,"North East","OH Region",2,NA,NA
+2020-05-09,"West","OH Region",74,NA,NA
+2020-05-09,"North East","OH Region",0,NA,NA
+2020-05-09,"Central","OH Region",6,NA,NA
+2020-05-09,"West","OH Region",1,NA,NA
+2020-05-09,"North West","OH Region",2,NA,NA
+2020-05-09,"North East","OH Region",2,NA,NA
+2020-05-09,"Toronto","OH Region",480,NA,NA
+2020-05-09,"Central","OH Region",12,NA,NA
+2020-05-09,"West","OH Region",20,NA,NA
+2020-05-09,"Central","OH Region",73,NA,NA
+2020-05-16,"Ontario","Province",1021,NA,NA
+2020-05-16,"North East","OH Region",0,NA,NA
+2020-05-16,"West","OH Region",5,NA,NA
+2020-05-16,"West","OH Region",1,NA,NA
+2020-05-16,"West","OH Region",34,NA,NA
+2020-05-16,"East","OH Region",46,NA,NA
+2020-05-16,"East","OH Region",0,NA,NA
+2020-05-16,"West","OH Region",0,NA,NA
+2020-05-16,"West","OH Region",0,NA,NA
+2020-05-16,"East","OH Region",2,NA,NA
+2020-05-16,"Central","OH Region",7,NA,NA
+2020-05-16,"East","OH Region",1,NA,NA
+2020-05-16,"West","OH Region",0,NA,NA
+2020-05-16,"East","OH Region",0,NA,NA
+2020-05-16,"West","OH Region",6,NA,NA
+2020-05-16,"East","OH Region",9,NA,NA
+2020-05-16,"West","OH Region",25,NA,NA
+2020-05-16,"West","OH Region",37,NA,NA
+2020-05-16,"North East","OH Region",0,NA,NA
+2020-05-16,"North West","OH Region",0,NA,NA
+2020-05-16,"East","OH Region",57,NA,NA
+2020-05-16,"Central","OH Region",150,NA,NA
+2020-05-16,"East","OH Region",2,NA,NA
+2020-05-16,"North East","OH Region",3,NA,NA
+2020-05-16,"North East","OH Region",1,NA,NA
+2020-05-16,"West","OH Region",69,NA,NA
+2020-05-16,"North East","OH Region",0,NA,NA
+2020-05-16,"Central","OH Region",6,NA,NA
+2020-05-16,"West","OH Region",1,NA,NA
+2020-05-16,"North West","OH Region",2,NA,NA
+2020-05-16,"North East","OH Region",2,NA,NA
+2020-05-16,"Toronto","OH Region",457,NA,NA
+2020-05-16,"Central","OH Region",10,NA,NA
+2020-05-16,"West","OH Region",22,NA,NA
+2020-05-16,"Central","OH Region",75,NA,NA
+2020-05-23,"Ontario","Province",945,NA,NA
+2020-05-23,"North East","OH Region",0,NA,NA
+2020-05-23,"West","OH Region",4,NA,NA
+2020-05-23,"West","OH Region",1,NA,NA
+2020-05-23,"West","OH Region",70,NA,NA
+2020-05-23,"East","OH Region",37,NA,NA
+2020-05-23,"East","OH Region",0,NA,NA
+2020-05-23,"West","OH Region",0,NA,NA
+2020-05-23,"West","OH Region",0,NA,NA
+2020-05-23,"East","OH Region",2,NA,NA
+2020-05-23,"Central","OH Region",6,NA,NA
+2020-05-23,"East","OH Region",0,NA,NA
+2020-05-23,"West","OH Region",0,NA,NA
+2020-05-23,"East","OH Region",0,NA,NA
+2020-05-23,"West","OH Region",5,NA,NA
+2020-05-23,"East","OH Region",6,NA,NA
+2020-05-23,"West","OH Region",18,NA,NA
+2020-05-23,"West","OH Region",28,NA,NA
+2020-05-23,"North East","OH Region",0,NA,NA
+2020-05-23,"North West","OH Region",0,NA,NA
+2020-05-23,"East","OH Region",49,NA,NA
+2020-05-23,"Central","OH Region",137,NA,NA
+2020-05-23,"East","OH Region",2,NA,NA
+2020-05-23,"North East","OH Region",3,NA,NA
+2020-05-23,"North East","OH Region",1,NA,NA
+2020-05-23,"West","OH Region",53,NA,NA
+2020-05-23,"North East","OH Region",0,NA,NA
+2020-05-23,"Central","OH Region",5,NA,NA
+2020-05-23,"West","OH Region",1,NA,NA
+2020-05-23,"North West","OH Region",1,NA,NA
+2020-05-23,"North East","OH Region",0,NA,NA
+2020-05-23,"Toronto","OH Region",428,NA,NA
+2020-05-23,"Central","OH Region",9,NA,NA
+2020-05-23,"West","OH Region",20,NA,NA
+2020-05-23,"Central","OH Region",68,NA,NA
+2020-05-30,"Ontario","Province",819,NA,NA
+2020-05-30,"North East","OH Region",1,NA,NA
+2020-05-30,"West","OH Region",3,NA,NA
+2020-05-30,"West","OH Region",1,NA,NA
+2020-05-30,"West","OH Region",60,NA,NA
+2020-05-30,"East","OH Region",35,NA,NA
+2020-05-30,"East","OH Region",1,NA,NA
+2020-05-30,"West","OH Region",0,NA,NA
+2020-05-30,"West","OH Region",2,NA,NA
+2020-05-30,"East","OH Region",1,NA,NA
+2020-05-30,"Central","OH Region",5,NA,NA
+2020-05-30,"East","OH Region",1,NA,NA
+2020-05-30,"West","OH Region",0,NA,NA
+2020-05-30,"East","OH Region",0,NA,NA
+2020-05-30,"West","OH Region",7,NA,NA
+2020-05-30,"East","OH Region",4,NA,NA
+2020-05-30,"West","OH Region",14,NA,NA
+2020-05-30,"West","OH Region",17,NA,NA
+2020-05-30,"North East","OH Region",1,NA,NA
+2020-05-30,"North West","OH Region",0,NA,NA
+2020-05-30,"East","OH Region",40,NA,NA
+2020-05-30,"Central","OH Region",121,NA,NA
+2020-05-30,"East","OH Region",1,NA,NA
+2020-05-30,"North East","OH Region",2,NA,NA
+2020-05-30,"North East","OH Region",0,NA,NA
+2020-05-30,"West","OH Region",35,NA,NA
+2020-05-30,"North East","OH Region",0,NA,NA
+2020-05-30,"Central","OH Region",4,NA,NA
+2020-05-30,"West","OH Region",1,NA,NA
+2020-05-30,"North West","OH Region",2,NA,NA
+2020-05-30,"North East","OH Region",0,NA,NA
+2020-05-30,"Toronto","OH Region",389,NA,NA
+2020-05-30,"Central","OH Region",6,NA,NA
+2020-05-30,"West","OH Region",18,NA,NA
+2020-05-30,"Central","OH Region",56,NA,NA
+2020-06-06,"Ontario","Province",721,NA,NA
+2020-06-06,"North East","OH Region",0,NA,NA
+2020-06-06,"West","OH Region",2,NA,NA
+2020-06-06,"West","OH Region",1,NA,NA
+2020-06-06,"West","OH Region",48,NA,NA
+2020-06-06,"East","OH Region",34,NA,NA
+2020-06-06,"East","OH Region",1,NA,NA
+2020-06-06,"West","OH Region",0,NA,NA
+2020-06-06,"West","OH Region",6,NA,NA
+2020-06-06,"East","OH Region",2,NA,NA
+2020-06-06,"Central","OH Region",15,NA,NA
+2020-06-06,"East","OH Region",1,NA,NA
+2020-06-06,"West","OH Region",0,NA,NA
+2020-06-06,"East","OH Region",0,NA,NA
+2020-06-06,"West","OH Region",12,NA,NA
+2020-06-06,"East","OH Region",3,NA,NA
+2020-06-06,"West","OH Region",9,NA,NA
+2020-06-06,"West","OH Region",9,NA,NA
+2020-06-06,"North East","OH Region",1,NA,NA
+2020-06-06,"North West","OH Region",0,NA,NA
+2020-06-06,"East","OH Region",34,NA,NA
+2020-06-06,"Central","OH Region",105,NA,NA
+2020-06-06,"East","OH Region",1,NA,NA
+2020-06-06,"North East","OH Region",1,NA,NA
+2020-06-06,"North East","OH Region",0,NA,NA
+2020-06-06,"West","OH Region",24,NA,NA
+2020-06-06,"North East","OH Region",0,NA,NA
+2020-06-06,"Central","OH Region",5,NA,NA
+2020-06-06,"West","OH Region",1,NA,NA
+2020-06-06,"North West","OH Region",2,NA,NA
+2020-06-06,"North East","OH Region",0,NA,NA
+2020-06-06,"Toronto","OH Region",344,NA,NA
+2020-06-06,"Central","OH Region",5,NA,NA
+2020-06-06,"West","OH Region",11,NA,NA
+2020-06-06,"Central","OH Region",52,NA,NA
+2020-06-13,"Ontario","Province",512,NA,NA
+2020-06-13,"North East","OH Region",0,NA,NA
+2020-06-13,"West","OH Region",1,NA,NA
+2020-06-13,"West","OH Region",1,NA,NA
+2020-06-13,"West","OH Region",36,NA,NA
+2020-06-13,"East","OH Region",32,NA,NA
+2020-06-13,"East","OH Region",0,NA,NA
+2020-06-13,"West","OH Region",0,NA,NA
+2020-06-13,"West","OH Region",1,NA,NA
+2020-06-13,"East","OH Region",2,NA,NA
+2020-06-13,"Central","OH Region",10,NA,NA
+2020-06-13,"East","OH Region",0,NA,NA
+2020-06-13,"West","OH Region",1,NA,NA
+2020-06-13,"East","OH Region",0,NA,NA
+2020-06-13,"West","OH Region",9,NA,NA
+2020-06-13,"East","OH Region",2,NA,NA
+2020-06-13,"West","OH Region",5,NA,NA
+2020-06-13,"West","OH Region",7,NA,NA
+2020-06-13,"North East","OH Region",1,NA,NA
+2020-06-13,"North West","OH Region",1,NA,NA
+2020-06-13,"East","OH Region",19,NA,NA
+2020-06-13,"Central","OH Region",75,NA,NA
+2020-06-13,"East","OH Region",0,NA,NA
+2020-06-13,"North East","OH Region",1,NA,NA
+2020-06-13,"North East","OH Region",0,NA,NA
+2020-06-13,"West","OH Region",16,NA,NA
+2020-06-13,"North East","OH Region",1,NA,NA
+2020-06-13,"Central","OH Region",3,NA,NA
+2020-06-13,"West","OH Region",1,NA,NA
+2020-06-13,"North West","OH Region",3,NA,NA
+2020-06-13,"North East","OH Region",0,NA,NA
+2020-06-13,"Toronto","OH Region",252,NA,NA
+2020-06-13,"Central","OH Region",4,NA,NA
+2020-06-13,"West","OH Region",5,NA,NA
+2020-06-13,"Central","OH Region",36,NA,NA
+2020-06-20,"Ontario","Province",340,NA,NA
+2020-06-20,"North East","OH Region",1,NA,NA
+2020-06-20,"West","OH Region",1,NA,NA
+2020-06-20,"West","OH Region",0,NA,NA
+2020-06-20,"West","OH Region",22,NA,NA
+2020-06-20,"East","OH Region",20,NA,NA
+2020-06-20,"East","OH Region",0,NA,NA
+2020-06-20,"West","OH Region",1,NA,NA
+2020-06-20,"West","OH Region",2,NA,NA
+2020-06-20,"East","OH Region",1,NA,NA
+2020-06-20,"Central","OH Region",5,NA,NA
+2020-06-20,"East","OH Region",0,NA,NA
+2020-06-20,"West","OH Region",0,NA,NA
+2020-06-20,"East","OH Region",0,NA,NA
+2020-06-20,"West","OH Region",1,NA,NA
+2020-06-20,"East","OH Region",0,NA,NA
+2020-06-20,"West","OH Region",5,NA,NA
+2020-06-20,"West","OH Region",3,NA,NA
+2020-06-20,"North East","OH Region",0,NA,NA
+2020-06-20,"North West","OH Region",2,NA,NA
+2020-06-20,"East","OH Region",10,NA,NA
+2020-06-20,"Central","OH Region",58,NA,NA
+2020-06-20,"East","OH Region",0,NA,NA
+2020-06-20,"North East","OH Region",1,NA,NA
+2020-06-20,"North East","OH Region",0,NA,NA
+2020-06-20,"West","OH Region",12,NA,NA
+2020-06-20,"North East","OH Region",1,NA,NA
+2020-06-20,"Central","OH Region",3,NA,NA
+2020-06-20,"West","OH Region",0,NA,NA
+2020-06-20,"North West","OH Region",3,NA,NA
+2020-06-20,"North East","OH Region",0,NA,NA
+2020-06-20,"Toronto","OH Region",175,NA,NA
+2020-06-20,"Central","OH Region",2,NA,NA
+2020-06-20,"West","OH Region",2,NA,NA
+2020-06-20,"Central","OH Region",19,NA,NA
+2020-06-27,"Ontario","Province",259,NA,NA
+2020-06-27,"North East","OH Region",0,NA,NA
+2020-06-27,"West","OH Region",0,NA,NA
+2020-06-27,"West","OH Region",0,NA,NA
+2020-06-27,"West","OH Region",16,NA,NA
+2020-06-27,"East","OH Region",7,NA,NA
+2020-06-27,"East","OH Region",0,NA,NA
+2020-06-27,"West","OH Region",0,NA,NA
+2020-06-27,"West","OH Region",2,NA,NA
+2020-06-27,"East","OH Region",1,NA,NA
+2020-06-27,"Central","OH Region",6,NA,NA
+2020-06-27,"East","OH Region",0,NA,NA
+2020-06-27,"West","OH Region",0,NA,NA
+2020-06-27,"East","OH Region",1,NA,NA
+2020-06-27,"West","OH Region",0,NA,NA
+2020-06-27,"East","OH Region",0,NA,NA
+2020-06-27,"West","OH Region",6,NA,NA
+2020-06-27,"West","OH Region",2,NA,NA
+2020-06-27,"North East","OH Region",1,NA,NA
+2020-06-27,"North West","OH Region",1,NA,NA
+2020-06-27,"East","OH Region",4,NA,NA
+2020-06-27,"Central","OH Region",44,NA,NA
+2020-06-27,"East","OH Region",0,NA,NA
+2020-06-27,"North East","OH Region",0,NA,NA
+2020-06-27,"North East","OH Region",0,NA,NA
+2020-06-27,"West","OH Region",11,NA,NA
+2020-06-27,"North East","OH Region",1,NA,NA
+2020-06-27,"Central","OH Region",3,NA,NA
+2020-06-27,"West","OH Region",1,NA,NA
+2020-06-27,"North West","OH Region",4,NA,NA
+2020-06-27,"North East","OH Region",0,NA,NA
+2020-06-27,"Toronto","OH Region",135,NA,NA
+2020-06-27,"Central","OH Region",2,NA,NA
+2020-06-27,"West","OH Region",2,NA,NA
+2020-06-27,"Central","OH Region",17,NA,NA
+2020-07-04,"Ontario","Province",165,NA,NA
+2020-07-04,"North East","OH Region",0,NA,NA
+2020-07-04,"West","OH Region",0,NA,NA
+2020-07-04,"West","OH Region",0,NA,NA
+2020-07-04,"West","OH Region",6,NA,NA
+2020-07-04,"East","OH Region",5,NA,NA
+2020-07-04,"East","OH Region",0,NA,NA
+2020-07-04,"West","OH Region",0,NA,NA
+2020-07-04,"West","OH Region",1,NA,NA
+2020-07-04,"East","OH Region",1,NA,NA
+2020-07-04,"Central","OH Region",3,NA,NA
+2020-07-04,"East","OH Region",0,NA,NA
+2020-07-04,"West","OH Region",0,NA,NA
+2020-07-04,"East","OH Region",1,NA,NA
+2020-07-04,"West","OH Region",0,NA,NA
+2020-07-04,"East","OH Region",0,NA,NA
+2020-07-04,"West","OH Region",5,NA,NA
+2020-07-04,"West","OH Region",2,NA,NA
+2020-07-04,"North East","OH Region",0,NA,NA
+2020-07-04,"North West","OH Region",0,NA,NA
+2020-07-04,"East","OH Region",3,NA,NA
+2020-07-04,"Central","OH Region",22,NA,NA
+2020-07-04,"East","OH Region",0,NA,NA
+2020-07-04,"North East","OH Region",0,NA,NA
+2020-07-04,"North East","OH Region",0,NA,NA
+2020-07-04,"West","OH Region",13,NA,NA
+2020-07-04,"North East","OH Region",1,NA,NA
+2020-07-04,"Central","OH Region",2,NA,NA
+2020-07-04,"West","OH Region",0,NA,NA
+2020-07-04,"North West","OH Region",2,NA,NA
+2020-07-04,"North East","OH Region",0,NA,NA
+2020-07-04,"Toronto","OH Region",82,NA,NA
+2020-07-04,"Central","OH Region",2,NA,NA
+2020-07-04,"West","OH Region",4,NA,NA
+2020-07-04,"Central","OH Region",17,NA,NA
+2020-07-11,"Ontario","Province",125,NA,NA
+2020-07-11,"North East","OH Region",0,NA,NA
+2020-07-11,"West","OH Region",0,NA,NA
+2020-07-11,"West","OH Region",0,NA,NA
+2020-07-11,"West","OH Region",1,NA,NA
+2020-07-11,"East","OH Region",3,NA,NA
+2020-07-11,"East","OH Region",0,NA,NA
+2020-07-11,"West","OH Region",0,NA,NA
+2020-07-11,"West","OH Region",0,NA,NA
+2020-07-11,"East","OH Region",1,NA,NA
+2020-07-11,"Central","OH Region",1,NA,NA
+2020-07-11,"East","OH Region",0,NA,NA
+2020-07-11,"West","OH Region",0,NA,NA
+2020-07-11,"East","OH Region",1,NA,NA
+2020-07-11,"West","OH Region",0,NA,NA
+2020-07-11,"East","OH Region",0,NA,NA
+2020-07-11,"West","OH Region",3,NA,NA
+2020-07-11,"West","OH Region",2,NA,NA
+2020-07-11,"North East","OH Region",1,NA,NA
+2020-07-11,"North West","OH Region",0,NA,NA
+2020-07-11,"East","OH Region",3,NA,NA
+2020-07-11,"Central","OH Region",19,NA,NA
+2020-07-11,"East","OH Region",0,NA,NA
+2020-07-11,"North East","OH Region",0,NA,NA
+2020-07-11,"North East","OH Region",0,NA,NA
+2020-07-11,"West","OH Region",10,NA,NA
+2020-07-11,"North East","OH Region",0,NA,NA
+2020-07-11,"Central","OH Region",2,NA,NA
+2020-07-11,"West","OH Region",0,NA,NA
+2020-07-11,"North West","OH Region",2,NA,NA
+2020-07-11,"North East","OH Region",0,NA,NA
+2020-07-11,"Toronto","OH Region",69,NA,NA
+2020-07-11,"Central","OH Region",1,NA,NA
+2020-07-11,"West","OH Region",3,NA,NA
+2020-07-11,"Central","OH Region",10,NA,NA
+2020-07-18,"Ontario","Province",114,NA,NA
+2020-07-18,"North East","OH Region",0,NA,NA
+2020-07-18,"West","OH Region",1,NA,NA
+2020-07-18,"West","OH Region",0,NA,NA
+2020-07-18,"West","OH Region",2,NA,NA
+2020-07-18,"East","OH Region",1,NA,NA
+2020-07-18,"East","OH Region",0,NA,NA
+2020-07-18,"West","OH Region",0,NA,NA
+2020-07-18,"West","OH Region",0,NA,NA
+2020-07-18,"East","OH Region",2,NA,NA
+2020-07-18,"Central","OH Region",2,NA,NA
+2020-07-18,"East","OH Region",0,NA,NA
+2020-07-18,"West","OH Region",0,NA,NA
+2020-07-18,"East","OH Region",0,NA,NA
+2020-07-18,"West","OH Region",0,NA,NA
+2020-07-18,"East","OH Region",0,NA,NA
+2020-07-18,"West","OH Region",3,NA,NA
+2020-07-18,"West","OH Region",1,NA,NA
+2020-07-18,"North East","OH Region",0,NA,NA
+2020-07-18,"North West","OH Region",1,NA,NA
+2020-07-18,"East","OH Region",6,NA,NA
+2020-07-18,"Central","OH Region",17,NA,NA
+2020-07-18,"East","OH Region",0,NA,NA
+2020-07-18,"North East","OH Region",0,NA,NA
+2020-07-18,"North East","OH Region",0,NA,NA
+2020-07-18,"West","OH Region",7,NA,NA
+2020-07-18,"North East","OH Region",0,NA,NA
+2020-07-18,"Central","OH Region",1,NA,NA
+2020-07-18,"West","OH Region",1,NA,NA
+2020-07-18,"North West","OH Region",2,NA,NA
+2020-07-18,"North East","OH Region",0,NA,NA
+2020-07-18,"Toronto","OH Region",63,NA,NA
+2020-07-18,"Central","OH Region",1,NA,NA
+2020-07-18,"West","OH Region",4,NA,NA
+2020-07-18,"Central","OH Region",7,NA,NA
+2020-07-25,"Ontario","Province",118,NA,NA
+2020-07-25,"North East","OH Region",1,NA,NA
+2020-07-25,"West","OH Region",1,NA,NA
+2020-07-25,"West","OH Region",1,NA,NA
+2020-07-25,"West","OH Region",3,NA,NA
+2020-07-25,"East","OH Region",1,NA,NA
+2020-07-25,"East","OH Region",0,NA,NA
+2020-07-25,"West","OH Region",0,NA,NA
+2020-07-25,"West","OH Region",0,NA,NA
+2020-07-25,"East","OH Region",1,NA,NA
+2020-07-25,"Central","OH Region",4,NA,NA
+2020-07-25,"East","OH Region",0,NA,NA
+2020-07-25,"West","OH Region",0,NA,NA
+2020-07-25,"East","OH Region",0,NA,NA
+2020-07-25,"West","OH Region",0,NA,NA
+2020-07-25,"East","OH Region",0,NA,NA
+2020-07-25,"West","OH Region",2,NA,NA
+2020-07-25,"West","OH Region",0,NA,NA
+2020-07-25,"North East","OH Region",0,NA,NA
+2020-07-25,"North West","OH Region",0,NA,NA
+2020-07-25,"East","OH Region",8,NA,NA
+2020-07-25,"Central","OH Region",14,NA,NA
+2020-07-25,"East","OH Region",0,NA,NA
+2020-07-25,"North East","OH Region",1,NA,NA
+2020-07-25,"North East","OH Region",0,NA,NA
+2020-07-25,"West","OH Region",6,NA,NA
+2020-07-25,"North East","OH Region",0,NA,NA
+2020-07-25,"Central","OH Region",2,NA,NA
+2020-07-25,"West","OH Region",1,NA,NA
+2020-07-25,"North West","OH Region",1,NA,NA
+2020-07-25,"North East","OH Region",0,NA,NA
+2020-07-25,"Toronto","OH Region",61,NA,NA
+2020-07-25,"Central","OH Region",1,NA,NA
+2020-07-25,"West","OH Region",10,NA,NA
+2020-07-25,"Central","OH Region",6,NA,NA
+2020-08-01,"Ontario","Province",84,NA,NA
+2020-08-01,"North East","OH Region",0,NA,NA
+2020-08-01,"West","OH Region",1,NA,NA
+2020-08-01,"West","OH Region",1,NA,NA
+2020-08-01,"West","OH Region",1,NA,NA
+2020-08-01,"East","OH Region",1,NA,NA
+2020-08-01,"East","OH Region",0,NA,NA
+2020-08-01,"West","OH Region",0,NA,NA
+2020-08-01,"West","OH Region",0,NA,NA
+2020-08-01,"East","OH Region",0,NA,NA
+2020-08-01,"Central","OH Region",3,NA,NA
+2020-08-01,"East","OH Region",0,NA,NA
+2020-08-01,"West","OH Region",0,NA,NA
+2020-08-01,"East","OH Region",0,NA,NA
+2020-08-01,"West","OH Region",0,NA,NA
+2020-08-01,"East","OH Region",0,NA,NA
+2020-08-01,"West","OH Region",1,NA,NA
+2020-08-01,"West","OH Region",0,NA,NA
+2020-08-01,"North East","OH Region",0,NA,NA
+2020-08-01,"North West","OH Region",0,NA,NA
+2020-08-01,"East","OH Region",11,NA,NA
+2020-08-01,"Central","OH Region",10,NA,NA
+2020-08-01,"East","OH Region",0,NA,NA
+2020-08-01,"North East","OH Region",2,NA,NA
+2020-08-01,"North East","OH Region",0,NA,NA
+2020-08-01,"West","OH Region",6,NA,NA
+2020-08-01,"North East","OH Region",0,NA,NA
+2020-08-01,"Central","OH Region",2,NA,NA
+2020-08-01,"West","OH Region",2,NA,NA
+2020-08-01,"North West","OH Region",1,NA,NA
+2020-08-01,"North East","OH Region",0,NA,NA
+2020-08-01,"Toronto","OH Region",31,NA,NA
+2020-08-01,"Central","OH Region",0,NA,NA
+2020-08-01,"West","OH Region",11,NA,NA
+2020-08-01,"Central","OH Region",5,NA,NA
+2020-08-08,"Ontario","Province",64,NA,NA
+2020-08-08,"North East","OH Region",0,NA,NA
+2020-08-08,"West","OH Region",1,NA,NA
+2020-08-08,"West","OH Region",1,NA,NA
+2020-08-08,"West","OH Region",3,NA,NA
+2020-08-08,"East","OH Region",0,NA,NA
+2020-08-08,"East","OH Region",0,NA,NA
+2020-08-08,"West","OH Region",0,NA,NA
+2020-08-08,"West","OH Region",1,NA,NA
+2020-08-08,"East","OH Region",1,NA,NA
+2020-08-08,"Central","OH Region",1,NA,NA
+2020-08-08,"East","OH Region",0,NA,NA
+2020-08-08,"West","OH Region",0,NA,NA
+2020-08-08,"East","OH Region",0,NA,NA
+2020-08-08,"West","OH Region",0,NA,NA
+2020-08-08,"East","OH Region",0,NA,NA
+2020-08-08,"West","OH Region",2,NA,NA
+2020-08-08,"West","OH Region",2,NA,NA
+2020-08-08,"North East","OH Region",0,NA,NA
+2020-08-08,"North West","OH Region",0,NA,NA
+2020-08-08,"East","OH Region",10,NA,NA
+2020-08-08,"Central","OH Region",9,NA,NA
+2020-08-08,"East","OH Region",0,NA,NA
+2020-08-08,"North East","OH Region",2,NA,NA
+2020-08-08,"North East","OH Region",0,NA,NA
+2020-08-08,"West","OH Region",3,NA,NA
+2020-08-08,"North East","OH Region",0,NA,NA
+2020-08-08,"Central","OH Region",1,NA,NA
+2020-08-08,"West","OH Region",1,NA,NA
+2020-08-08,"North West","OH Region",0,NA,NA
+2020-08-08,"North East","OH Region",0,NA,NA
+2020-08-08,"Toronto","OH Region",17,NA,NA
+2020-08-08,"Central","OH Region",1,NA,NA
+2020-08-08,"West","OH Region",7,NA,NA
+2020-08-08,"Central","OH Region",8,NA,NA
+2020-08-15,"Ontario","Province",43,NA,NA
+2020-08-15,"North East","OH Region",0,NA,NA
+2020-08-15,"West","OH Region",1,NA,NA
+2020-08-15,"West","OH Region",2,NA,NA
+2020-08-15,"West","OH Region",2,NA,NA
+2020-08-15,"East","OH Region",2,NA,NA
+2020-08-15,"East","OH Region",0,NA,NA
+2020-08-15,"West","OH Region",0,NA,NA
+2020-08-15,"West","OH Region",0,NA,NA
+2020-08-15,"East","OH Region",0,NA,NA
+2020-08-15,"Central","OH Region",0,NA,NA
+2020-08-15,"East","OH Region",0,NA,NA
+2020-08-15,"West","OH Region",1,NA,NA
+2020-08-15,"East","OH Region",0,NA,NA
+2020-08-15,"West","OH Region",0,NA,NA
+2020-08-15,"East","OH Region",0,NA,NA
+2020-08-15,"West","OH Region",3,NA,NA
+2020-08-15,"West","OH Region",1,NA,NA
+2020-08-15,"North East","OH Region",0,NA,NA
+2020-08-15,"North West","OH Region",0,NA,NA
+2020-08-15,"East","OH Region",8,NA,NA
+2020-08-15,"Central","OH Region",9,NA,NA
+2020-08-15,"East","OH Region",0,NA,NA
+2020-08-15,"North East","OH Region",1,NA,NA
+2020-08-15,"North East","OH Region",0,NA,NA
+2020-08-15,"West","OH Region",1,NA,NA
+2020-08-15,"North East","OH Region",0,NA,NA
+2020-08-15,"Central","OH Region",1,NA,NA
+2020-08-15,"West","OH Region",1,NA,NA
+2020-08-15,"North West","OH Region",0,NA,NA
+2020-08-15,"North East","OH Region",0,NA,NA
+2020-08-15,"Toronto","OH Region",7,NA,NA
+2020-08-15,"Central","OH Region",2,NA,NA
+2020-08-15,"West","OH Region",5,NA,NA
+2020-08-15,"Central","OH Region",5,NA,NA
+2020-08-22,"Ontario","Province",40,NA,NA
+2020-08-22,"North East","OH Region",0,NA,NA
+2020-08-22,"West","OH Region",0,NA,NA
+2020-08-22,"West","OH Region",1,NA,NA
+2020-08-22,"West","OH Region",2,NA,NA
+2020-08-22,"East","OH Region",3,NA,NA
+2020-08-22,"East","OH Region",0,NA,NA
+2020-08-22,"West","OH Region",0,NA,NA
+2020-08-22,"West","OH Region",0,NA,NA
+2020-08-22,"East","OH Region",0,NA,NA
+2020-08-22,"Central","OH Region",0,NA,NA
+2020-08-22,"East","OH Region",0,NA,NA
+2020-08-22,"West","OH Region",0,NA,NA
+2020-08-22,"East","OH Region",0,NA,NA
+2020-08-22,"West","OH Region",0,NA,NA
+2020-08-22,"East","OH Region",0,NA,NA
+2020-08-22,"West","OH Region",2,NA,NA
+2020-08-22,"West","OH Region",1,NA,NA
+2020-08-22,"North East","OH Region",0,NA,NA
+2020-08-22,"North West","OH Region",0,NA,NA
+2020-08-22,"East","OH Region",5,NA,NA
+2020-08-22,"Central","OH Region",7,NA,NA
+2020-08-22,"East","OH Region",0,NA,NA
+2020-08-22,"North East","OH Region",1,NA,NA
+2020-08-22,"North East","OH Region",0,NA,NA
+2020-08-22,"West","OH Region",2,NA,NA
+2020-08-22,"North East","OH Region",0,NA,NA
+2020-08-22,"Central","OH Region",1,NA,NA
+2020-08-22,"West","OH Region",0,NA,NA
+2020-08-22,"North West","OH Region",0,NA,NA
+2020-08-22,"North East","OH Region",0,NA,NA
+2020-08-22,"Toronto","OH Region",6,NA,NA
+2020-08-22,"Central","OH Region",2,NA,NA
+2020-08-22,"West","OH Region",6,NA,NA
+2020-08-22,"Central","OH Region",5,NA,NA
