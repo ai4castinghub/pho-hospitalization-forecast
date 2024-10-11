@@ -60,7 +60,11 @@ save_filtered_data <- function(start_year, end_year) {
     select(time, geo_value,	geo_type,	covid,	flu,	rsv)
   # Create directory and file path
   dir_name <- file.path(target_dir, paste0("season_", start_year, "_", end_year))
-  dir.create(dir_name, showWarnings = FALSE)
+  
+  if (!file.exists(dir_name)) {
+    dir.create(dir_name, showWarnings = FALSE)
+  }
+  
   file_path <- file.path(dir_name, "data.csv")
   
   if (start_year<2022){
