@@ -1,0 +1,85 @@
+
+library(dplyr)
+library(readxl)
+library(tidyr)
+library(lubridate)
+
+# Define file paths
+hospital_bed_occupancy_file <- "data.xlsx"
+phu_region_mapping_file <- "phu_region_mapping.csv"
+
+# Read hospital bed occupancy and region mapping data
+hospital_bed_occupancy <- read_excel(hospital_bed_occupancy_file,
+                                     col_types = c("text", "text", "text", "numeric", "date", "date", "numeric", "numeric", "numeric"))
+
+phu_region_mapping <- read.csv(phu_region_mapping_file)
+
+# Process hospital bed occupancy data
+hospital_bed_occupancy <- hospital_bed_occupancy %>%
+  replace_na(list(`Public health unit` = "NA")) %>%
+  filter(`Public health unit` != 'NA') %>%
+  left_join(phu_region_mapping, by = c('Public health unit' = 'NAME_ENG')) %>%
+  select(`Public health unit`, `Outcome`, `Surveillance week`, `Week end date`, 
+         `Number`, `OH_Name`, `Population_2021`) %>%
+  filter(Outcome %in% c("COVID-19 hospital bed occupancy (total)", 
+                        "Influenza hospital bed occupancy (total)", 
+                        "RSV hospital bed occupancy (total)")) %>%
+  mutate(Number = ceiling(Number)) %>%
+  pivot_wider(names_from = Outcome, values_from = Number) %>%
+  mutate(geo_type = ifelse(OH_Name == "Ontario", "Province", "OH Region")) %>%
+  select(`Surveillance week`, `Week end date`, `OH_Name`, `geo_type`, 
+         `COVID-19 hospital bed occupancy (total)`, 
+         `Influenza hospital bed occupancy (total)`, 
+         `RSV hospital bed occupancy (total)`, `Population_2021`) %>%
+  rename(week = `Surveillance week`, time = `Week end date`, 
+         geo_value = `OH_Name`, 
+         covid = `COVID-19 hospital bed occupancy (total)`, 
+         flu = `Influenza hospital bed occupancy (total)`, 
+         rsv = `RSV hospital bed occupancy (total)`, 
+         population = `Population_2021`) %>%
+  arrange(as.Date(time)) %>%
+  mutate(year = year(time))
+
+# Define seasons and filter data
+start_week <- 35
+end_week <- 34
+years <- 2019:2024
+
+# Create target directory
+target_dir <- "./target-data"
+if (!dir.exists(target_dir)) {
+  dir.create(target_dir, recursive = TRUE)
+}
+
+# Function to filter and save data
+save_filtered_data <- function(start_year, end_year) {
+  filtered_data <- hospital_bed_occupancy %>%
+    filter((year == start_year & week >= start_week) | 
+             (year == end_year & week <= end_week))
+  filtered_data <- filtered_data |>
+    select(time, geo_value,	geo_type,	covid,	flu,	rsv)
+  # Create directory and file path
+  dir_name <- file.path(target_dir, paste0("season_", start_year, "_", end_year))
+  dir.create(dir_name, showWarnings = FALSE)
+  file_path <- file.path(dir_name, "data.csv")
+  
+  if (start_year<2022){
+    filtered_data = filtered_data |>
+      select(-rsv,-flu)
+  }
+  
+  # Save filtered data to CSV
+  write.csv(filtered_data, file = file_path, row.names = FALSE)
+  cat("Data saved for season:", start_year, "-", end_year, "to", file_path, "\n")
+}
+
+# Handle the special case for the 2024-2025 season
+if (dir.exists(file.path(target_dir, "season_2024_2025"))) {
+  save_filtered_data(2024, 2025)
+} else{
+  # Loop through the years and save data
+  for (start_year in years) {
+    end_year <- start_year + 1
+    save_filtered_data(start_year, end_year)
+  }
+}
