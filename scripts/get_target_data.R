@@ -5,8 +5,8 @@ library(tidyr)
 library(lubridate)
 
 # Define file paths
-hospital_bed_occupancy_file <- "data.xlsx"
-phu_region_mapping_file <- "phu_region_mapping.csv"
+hospital_bed_occupancy_file <- "./scripts/data.xlsx"
+phu_region_mapping_file <- "./scripts/phu_region_mapping.csv"
 
 # Read hospital bed occupancy and region mapping data
 hospital_bed_occupancy <- read_excel(hospital_bed_occupancy_file,
