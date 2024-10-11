@@ -51,39 +51,52 @@ if (!dir.exists(target_dir)) {
   dir.create(target_dir, recursive = TRUE)
 }
 
-# Function to filter and save data
-save_filtered_data <- function(start_year, end_year) {
-  filtered_data <- hospital_bed_occupancy %>%
-    filter((year == start_year & week >= start_week) | 
-             (year == end_year & week <= end_week))
-  filtered_data <- filtered_data |>
-    select(time, geo_value,	geo_type,	covid,	flu,	rsv)
-  # Create directory and file path
-  dir_name <- file.path(target_dir, paste0("season_", start_year, "_", end_year))
-  
-  if (!file.exists(dir_name)) {
-    dir.create(dir_name, showWarnings = FALSE)
-  }
-  
-  file_path <- file.path(dir_name, "data.csv")
-  
-  if (start_year<2022){
-    filtered_data = filtered_data |>
-      select(-rsv,-flu)
-  }
-  
-  # Save filtered data to CSV
-  write.csv(filtered_data, file = file_path, row.names = FALSE)
-  cat("Data saved for season:", start_year, "-", end_year, "to", file_path, "\n")
-}
 
 # Handle the special case for the 2024-2025 season
 if (!dir.exists(file.path(target_dir, "season_2023_2024"))) {
   # Loop through the years and save all data
   for (start_year in years) {
     end_year <- start_year + 1
-    save_filtered_data(start_year, end_year)
+    
+    filtered_data <- hospital_bed_occupancy %>%
+      filter((year == start_year & week >= start_week) | 
+               (year == end_year & week <= end_week))
+   
+    filtered_data <- filtered_data |>
+      select(time, geo_value,	geo_type,	covid,	flu,	rsv)
+    
+    # Create directory and file path
+    dir_name <- file.path(target_dir, paste0("season_", start_year, "_", end_year))
+    
+    if (!file.exists(dir_name)) {
+      dir.create(dir_name, showWarnings = FALSE)
+    }
+    
+    file_path <- file.path(dir_name, "data.csv")
+    
+    if (start_year<2022){
+      filtered_data = filtered_data |>
+        select(-rsv,-flu)
+    }
+    
+    # Save filtered data to CSV
+    write.csv(filtered_data, file = file_path, row.names = FALSE)
+    cat("Data saved for season:", start_year, "-", end_year, "to", file_path, "\n")
   }
 } else{
-  save_filtered_data(2024, 2025)
+  start_year <- 2024
+  end_year <- 2025
+    filtered_data <- hospital_bed_occupancy %>%
+      filter((year == start_year & week >= start_week) | 
+               (year == end_year & week <= end_week))
+    filtered_data <- filtered_data |>
+      select(time, geo_value,	geo_type,	covid,	flu,	rsv)
+    # Create directory and file path
+    
+    dir_name <- file.path(target_dir, paste0("season_", start_year, "_", end_year))
+    file_path <- file.path(dir_name, "data.csv")
+    
+    # Save filtered data to CSV
+    write.csv(filtered_data, file = file_path, row.names = FALSE)
+    cat("Data saved for season:", start_year, "-", end_year, "to", file_path, "\n")
   }
