@@ -78,12 +78,12 @@ save_filtered_data <- function(start_year, end_year) {
 }
 
 # Handle the special case for the 2024-2025 season
-if (dir.exists(file.path(target_dir, "season_2024_2025"))) {
-  save_filtered_data(2024, 2025)
-} else{
+if (!dir.exists(file.path(target_dir, "season_2023_2024"))) {
   # Loop through the years and save all data
   for (start_year in years) {
     end_year <- start_year + 1
     save_filtered_data(start_year, end_year)
   }
-}
+} else{
+  save_filtered_data(2024, 2025)
+  }
