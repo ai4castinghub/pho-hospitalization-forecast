@@ -1,5 +1,4 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "team_name": "ForecastingG",
     "team_abbr": "Forecasting",
     "model_name": "COVID-Flu-RSV Quantile Model",
