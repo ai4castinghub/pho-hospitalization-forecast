@@ -1,0 +1,34 @@
+{
+    "team_name": "ForecastingG",
+    "team_abbr": "Forecasting",
+    "model_name": "COVID-Flu-RSV Quantile Model",
+    "model_abbr": "G",
+    "model_version": "v1.0",
+    "model_contributors": [
+        {
+            "name": "Sh Km",
+
+            "affiliation": "University of G",
+            "email": "sskadam@uoguelph.ca",
+            "orcid": "0000-0001-2345-6789"
+        },
+        {
+            "name": "D. Forecast",
+            "affiliation": "University of Guelph",
+            "email": "dforecast@uoguelph.ca",
+            "orcid": "0000-0002-3456-7890"
+        }
+    ],
+    "website_url": "https://forecastingteamguelph.ca",
+    "repo_url": "https://github.com/FT_G/CFR_Quant",
+    "license": "CC-BY-4.0",
+    "designated_model": true,
+    "citation": "Forecasting Team Guelph, COVID-Flu-RSV Quantile Model. medRxiv. 2024. https://doi.org/10.1101/2024.10.12.12345678",
+    "team_funding": "National Institutes of Health (NIH) grant R01GM123456. The content is solely the responsibility of the authors.",
+    "data_inputs": "COVID-19 case data, Flu surveillance data, RSV case data, hospital admission data.",
+    "methods": "Quantile regression with spatial and temporal correlations.",
+    "methods_long": "This model uses quantile regression techniques to predict the distribution of cases for COVID-19, Flu, and RSV. It incorporates spatial correlations across different regions and accounts for uncertainty by generating quantile-based predictions. The model uses time-series forecasting combined with ensemble learning techniques.",
+    "ensemble_of_models": false,
+    "ensemble_of_hub_models": false,
+    "source_notes": "Model outputs are based on publicly available data from government health agencies and internal models."
+}
