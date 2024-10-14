@@ -1,9 +1,9 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "team_name": "Forecasting Team",
-    "team_abbr": "FT_Guelph",
+    "team_name": "ForecastingG",
+    "team_abbr": "Forecasting",
     "model_name": "COVID-Flu-RSV Quantile Model",
-    "model_abbr": "CFR_Quant",
+    "model_abbr": "G",
     "model_version": "v1.0",
     "model_contributors": [
         {
