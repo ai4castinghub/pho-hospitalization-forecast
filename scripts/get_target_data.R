@@ -5,8 +5,8 @@ library(tidyr)
 library(lubridate)
 
 # Define file paths
-hospital_bed_occupancy_file <- "./scripts/data.xlsx"
-phu_region_mapping_file <- "./scripts/phu_region_mapping.csv"
+hospital_bed_occupancy_file <- "./auxiliary-data/data.xlsx"
+phu_region_mapping_file <- "./auxiliary-data/phu_region_mapping.csv"
 
 # Read hospital bed occupancy and region mapping data
 hospital_bed_occupancy <- read_excel(hospital_bed_occupancy_file,
@@ -47,13 +47,18 @@ years <- 2019:2024
 
 # Create target directory
 target_dir <- "./target-data"
+archive_dir <-"./auxiliary-data/target-data-archive"
+  
 if (!dir.exists(target_dir)) {
   dir.create(target_dir, recursive = TRUE)
 }
 
+if (!dir.exists(archive_dir)) {
+  dir.create(archive_dir, recursive = TRUE)
+}
 
 # Handle the special case for the 2024-2025 season
-if (!dir.exists(file.path(target_dir, "season_2023_2024"))) {
+if (!dir.exists(file.path(archive_dir, "season_2023_2024"))) {
   # Loop through the years and save all data
   for (start_year in years) {
     end_year <- start_year + 1
@@ -66,13 +71,17 @@ if (!dir.exists(file.path(target_dir, "season_2023_2024"))) {
       select(time, geo_value,	geo_type,	covid,	flu,	rsv)
     
     # Create directory and file path
-    dir_name <- file.path(target_dir, paste0("season_", start_year, "_", end_year))
+    if (start_year == 2024){
+      dir_name <- file.path(target_dir, paste0("season_", start_year, "_", end_year))
+    } else{
+      dir_name <- file.path(archive_dir, paste0("season_", start_year, "_", end_year))
+    }
     
     if (!file.exists(dir_name)) {
       dir.create(dir_name, showWarnings = FALSE)
     }
     
-    file_path <- file.path(dir_name, "data.csv")
+    file_path <- file.path(dir_name, "hospitalization-data.csv")
     
     if (start_year<2022){
       filtered_data = filtered_data |>
