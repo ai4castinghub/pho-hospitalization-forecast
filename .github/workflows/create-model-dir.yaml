@@ -1,0 +1,51 @@
+name: Create Model Output Directory
+ 
+on:
+  push:
+    paths:
+      - 'model-metadata/*.yaml'
+ 
+jobs:
+  create-directory:
+    runs-on: ubuntu-latest
+ 
+    steps:
+    # Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+ 
+    # List new YAML files in the model-metadata directory
+    - name: Get YAML files
+      id: yaml_files
+      run: |
+        files=$(git diff --name-only HEAD^ HEAD | grep 'model-metadata/.*\.yaml')
+        echo "yaml_files=$files" >> $GITHUB_ENV
+ 
+    # Create corresponding directories in model-output
+    - name: Create directories
+      run: |
+        for file in ${{ env.yaml_files }}; do
+          file_name=$(basename "$file" .yaml)
+          output_dir="./model-output/$file_name"
+          if [ ! -d "$output_dir" ]; then
+            mkdir -p "$output_dir"
+            echo "Created directory: $output_dir"
+          else
+            echo "Directory $output_dir already exists"
+          fi
+        done
+ 
+    # Commit and push changes if new directories were created
+    - name: Commit changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add ./model-output
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Create model-output directories for new YAML files"
+          git push
+        fi
