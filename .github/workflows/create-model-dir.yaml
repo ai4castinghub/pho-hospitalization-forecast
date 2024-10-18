@@ -1,6 +1,7 @@
 name: Create Model Output Directory
  
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'model-metadata/*.yaml'
