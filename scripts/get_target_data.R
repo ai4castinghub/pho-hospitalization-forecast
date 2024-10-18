@@ -103,7 +103,7 @@ if (!dir.exists(file.path(archive_dir, "season_2023_2024"))) {
     # Create directory and file path
     
     dir_name <- file.path(target_dir, paste0("season_", start_year, "_", end_year))
-    file_path <- file.path(dir_name, "data.csv")
+    file_path <- file.path(dir_name, "hospitalization-data.csv")
     
     # Save filtered data to CSV
     write.csv(filtered_data, file = file_path, row.names = FALSE)
