@@ -1,29 +1,38 @@
 name: Create Model Output Directory
- 
+
 on:
-  workflow_dispatch:
+  workflow_dispatch: 
   push:
     paths:
       - 'model-metadata/*.yaml'
- 
+
 jobs:
   create-directory:
     runs-on: ubuntu-latest
- 
+
     steps:
     # Checkout the repository
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
- 
-    # List new YAML files in the model-metadata directory
+
+    # List YAML files in the model-metadata directory
     - name: Get YAML files
       id: yaml_files
       run: |
-        files=$(git diff --name-only HEAD^ HEAD | grep 'model-metadata/.*\.yaml')
+        # Check if this is the first commit or a normal push
+        if [ $(git rev-parse --is-shallow-repository) = "true" ]; then
+          git fetch --prune --unshallow
+        fi
+        # Handle case for first commit or initial push
+        if [ $(git rev-list --count HEAD) -eq 1 ]; then
+          files=$(git ls-files 'model-metadata/*.yaml')
+        else
+          files=$(git diff --name-only HEAD^ HEAD -- 'model-metadata/*.yaml')
+        fi
         echo "yaml_files=$files" >> $GITHUB_ENV
- 
+
     # Create corresponding directories in model-output
     - name: Create directories
       run: |
@@ -37,7 +46,7 @@ jobs:
             echo "Directory $output_dir already exists"
           fi
         done
- 
+
     # Commit and push changes if new directories were created
     - name: Commit changes
       run: |
