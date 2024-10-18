@@ -30,7 +30,7 @@ jobs:
     # Run the R script to check and create directories
     - name: Run the R script
       run: |
-        Rscript ./create_directories.R
+        Rscript ./scripts/create_directories.R
 
     # Commit and push changes (created directories)
     - name: Commit changes
