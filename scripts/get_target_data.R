@@ -100,11 +100,14 @@ if (!dir.exists(file.path(archive_dir, "season_2023_2024"))) {
                (year == end_year & week <= end_week))
     filtered_data <- filtered_data |>
       select(time, geo_value,	geo_type,	covid,	flu,	rsv)
+  
     # Create directory and file path
-    
     dir_name <- file.path(target_dir, paste0("season_", start_year, "_", end_year))
+    if (!file.exists(dir_name)){
+     dir.create(dir_name, showWarnings = FALSE)
+    }
     file_path <- file.path(dir_name, "hospitalization-data.csv")
-    
+  
     # Save filtered data to CSV
     write.csv(filtered_data, file = file_path, row.names = FALSE)
     cat("Data saved for season:", start_year, "-", end_year, "to", file_path, "\n")
