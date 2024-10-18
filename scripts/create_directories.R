@@ -13,7 +13,7 @@ if (!dir_exists(output_dir)) {
 }
 
 # Get the list of YAML files in the model-metadata directory
-yaml_files <- dir_ls(metadata_dir, regexp = "\\.yaml$")
+yaml_files <- dir_ls(metadata_dir, regexp = "\\.(yaml|yml)$")
 
 # Create directories for each YAML file if they don't already exist
 for (yaml_file in yaml_files) {
