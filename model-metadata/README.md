@@ -8,16 +8,6 @@ The metadata file should be in
 [yaml format](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html). 
 Here is an [example of a model metadata file](./MOBS-GLEAM_FLUH.yml).
 
-When creating a new hub, administrators usually seed the `model-metadata` 
-folder with a template that submitting teams can copy and update for their 
-own models. Because some model metadata fields may be hub-specific, creators 
-of the hub are encouraged to create their template by:
-
-- adding the [Hubverse template model metadata file](https://hubverse.io/en/latest/user-guide/model-metadata.html#template-metadata-schema-file) to `model-metadata` 
-- modifying the template model metadata file to include any hub-specific fields
-- ensuring that the above changes are consistent with [Hubverse model metadata guidelines](https://hubverse.io/en/latest/format/model-metadata.html).
-
-
 The instructions below provide detail about the [data
 format](#Data-format) as well as [validation](#Data-validation) that
 you can do prior to a pull request with a metadata file.
