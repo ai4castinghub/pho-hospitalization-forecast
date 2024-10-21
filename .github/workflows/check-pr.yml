@@ -1,0 +1,32 @@
+name: Check for Changes Outside Allowed Directories
+
+on:
+  pull_request:
+    paths-ignore:
+      - 'model-metadata/**'
+      - 'model-output/**'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: List changed files
+        id: changed_files
+        run: |
+          git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} > changed_files.txt
+          cat changed_files.txt
+
+      - name: Check if changes are outside allowed directories
+        run: |
+          UNALLOWED_CHANGES=$(grep -vE '^model-metadata/|^model-output/' changed_files.txt || true)
+          if [[ -n "$UNALLOWED_CHANGES" ]]; then
+            echo "Changes outside allowed directories detected:"
+            echo "$UNALLOWED_CHANGES"
+            exit 1
+          else
+            echo "All changes are within allowed directories."
+          fi
