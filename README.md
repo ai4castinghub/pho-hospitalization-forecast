@@ -26,8 +26,8 @@ The reference week is defined by the epidemiological week (EW) running from Sund
 ### Important Notes
 Data for hospital admissions from the preceding week will be available by the Friday deadline.
 Forecasts for a horizon of -1 (the previous week) will not be included in official evaluations but are welcome for calibration purposes.
-Participation and Questions
-If you have any questions regarding this challenge or the development of prediction targets, please contact Siddhesh S. Kadam at skadam@uoguelph.ca.
+
+If you have any questions regarding this challenge or the development of prediction targets, please contact Siddhesh S. Kadam at 4castinghub@uoguelph.ca.
 
 ### Acknowledgments
 This repository follows the guidelines and standards outlined by the hubverse, which provides a set of data formats and open source tools for modeling hubs.
