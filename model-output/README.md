@@ -1,12 +1,12 @@
 # Model Outputs Folder Overview
 
-This folder contains subdirectories for each model, which hold the submitted model output files. The structure and contents of these directories follow the [model output guidelines in our documentation](https://hubdocs.readthedocs.io/en/latest/format/model-output.html). Below, we outline instructions specifically for AI4Casting Hub submissions.
+This folder contains subdirectories for each model, which hold the submitted model output files. The structure and contents of these directories follow the [model output guidelines in our documentation]([https://hubdocs.readthedocs.io/en/latest/format/model-output.html](https://hubverse.io/en/latest/user-guide/model-output.html)). Below, we outline instructions specifically for AI4Casting Hub submissions.
 
 # Data Submission Instructions
 
 Submit all forecasts directly to the [model-output/](./) folder by creating a pull request. This process ensures that automatic data validation checks are performed.
 
-These instructions cover details on [data formatting](#Data-formatting) and [forecast validation](#Forecast-validation), which you can perform before submitting the pull request. Additionally, [metadata](https://github.com/cdcepi/FluSight-forecast-hub/blob/master/model-metadata/README.md) required for each model should be provided in the model-metadata folder.
+These instructions cover details on [data formatting](#Data-formatting) and [forecast validation](#Forecast-validation), which you can perform before submitting the pull request. Additionally, [metadata](https://github.com/ai4castinghub/pho-hospitalization-forecast/blob/test-submissions/model-metadata/README.md) required for each model should be provided in the model-metadata folder.
 
 **Table of Contents**:
 - [What is a forecast](#What-is-a-forecast)
@@ -14,7 +14,6 @@ These instructions cover details on [data formatting](#Data-formatting) and [for
 - [Data formatting](#Data-formatting)
 - [Forecast file format](#Forecast-file-format)
 - [Forecast data validation](#Forecast-validation)
-- [Weekly ensemble build](#Weekly-ensemble-build)
 - [Policy on late submissions](#policy-on-late-or-updated-submissions)
 
 ## What is a Forecast?
