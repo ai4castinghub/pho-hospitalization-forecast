@@ -3,7 +3,7 @@ name: Hub Submission Validation (R)
 on:
   workflow_dispatch:
   pull_request:
-    branches: main
+    branches: [main, test-submissions]
     paths:
       - 'model-output/**'
       - 'model-metadata/*'

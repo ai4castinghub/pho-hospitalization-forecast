@@ -1,10 +1,10 @@
 name: Create Model Output Directories
 
-# Trigger the workflow manually or on push to ./model-metadata/ directory
 on:
   push:
     paths:
       - 'model-metadata/*.yaml'
+      - 'model-metadata/*.yml'
   workflow_dispatch:
 
 jobs:

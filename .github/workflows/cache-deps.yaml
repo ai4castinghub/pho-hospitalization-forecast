@@ -1,7 +1,7 @@
 name: Build dependency cache on main branch
 on:
   push:
-    branches: main
+    branches: [main,test-submissions]
     paths:
       - '.github/workflows/cache-deps.yaml'
   schedule:

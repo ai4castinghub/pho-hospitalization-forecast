@@ -1,0 +1,40 @@
+name: Restrict Changes to Specific Directories
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Check if PR author is repo owner or GitHub Action
+        id: check_author
+        run: |
+          if [[ "${{ github.actor }}" == "ai4castinghub" ]]; then
+            echo "Owner PR, skipping directory check."
+            echo "::set-output name=skip::true"
+          elif [[ "${{ github.actor }}" == "github-actions[bot]" ]]; then
+            echo "PR by GitHub Action, skipping directory check."
+            echo "::set-output name=skip::true"
+          else
+            echo "::set-output name=skip::false"
+          fi
+
+      - name: Check changed files (Non-Owner)
+        if: steps.check_author.outputs.skip == 'false'
+        run: |
+          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+          UNALLOWED_CHANGES=$(echo "$CHANGED_FILES" | grep -vE "^model-metadata/|^model-output/")
+
+          if [[ -n "$UNALLOWED_CHANGES" ]]; then
+            echo "Error: Changes outside allowed directories detected:"
+            echo "$UNALLOWED_CHANGES"
+            exit 1
+          else
+            echo "All changes are within allowed directories."
+          fi
