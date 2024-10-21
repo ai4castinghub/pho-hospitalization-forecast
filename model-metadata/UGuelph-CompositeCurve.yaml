@@ -1,7 +1,7 @@
 team_name: "University of Guelph Dynamics Training Lab"
 team_abbr: "UGuelph"
-model_name: "Composite Cyrve"
-model_abbr: "CompositeCyrve"
+model_name: "Composite Curve"
+model_abbr: "CompositeCurve"
 model_version: "1.0"
 model_contributors: [
   {
