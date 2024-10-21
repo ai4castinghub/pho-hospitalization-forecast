@@ -15,10 +15,13 @@ jobs:
       - name: Check if PR author is repo owner or GitHub Action
         id: check_author
         run: |
-          if [[ "${{ github.actor }}" == "ai4castinghub" ]]; then
+          REPO_OWNER=$(echo "${{ github.repository_owner }}")
+          ACTOR=$(echo "${{ github.actor }}")
+          
+          if [[ "$ACTOR" == "$REPO_OWNER" ]]; then
             echo "Owner PR, skipping directory check."
             echo "::set-output name=skip::true"
-          elif [[ "${{ github.actor }}" == "github-actions[bot]" ]]; then
+          elif [[ "$ACTOR" == "github-actions[bot]" ]]; then
             echo "PR by GitHub Action, skipping directory check."
             echo "::set-output name=skip::true"
           else
