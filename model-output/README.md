@@ -6,7 +6,7 @@ This folder contains subdirectories for each model, which hold the submitted mod
 
 Submit all forecasts directly to the [model-output/](./) folder by creating a pull request. This process ensures that automatic data validation checks are performed.
 
-These instructions cover details on [data formatting](#Data-formatting) and [forecast validation](#Forecast-validation), which you can perform before submitting the pull request. Additionally, [metadata](https://github.com/ai4castinghub/pho-hospitalization-forecast/blob/test-submissions/model-metadata/README.md) required for each model should be provided in the model-metadata folder.
+These instructions cover details on [data formatting](#Data-formatting) and [forecast validation](#Forecast-validation), which you can perform before submitting the pull request. Additionally, [metadata](https://github.com/ai4castinghub/pho-hospitalization-forecast/blob/main/model-metadata/README.md) required for each model should be provided in the model-metadata folder.
 
 **Table of Contents**:
 - [What is a forecast](#What-is-a-forecast)
