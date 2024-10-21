@@ -27,4 +27,4 @@ jobs:
 
       - name: Check changes using R script
         run: |
-          Rscript .github/scripts/check_changes.R
+          Rscript scripts/check_changes.R
