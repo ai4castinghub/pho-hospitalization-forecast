@@ -1,4 +1,4 @@
-# AI4Casting Hub – Hospital Bed Occupancy Data for Ontario Respiratory Virus Activity (2024-2025)
+# [AI4Casting Hub – Hospital Bed Occupancy Data for Ontario Respiratory Virus Activity (2024-2025)](https://sites.uoguelph.ca/4castinghub/hospitalization/)
 Welcome to the AI4Casting Hub's repository for the 2024-2025 Hospital Bed Occupancy Forecasting Challenge, focused on respiratory virus activity in Ontario, including COVID-19, influenza, and RSV. This repository is dedicated to collecting weekly forecast data for hospital bed occupancy across the Ontario province, aiding in real-time decision-making and resource allocation.
 
 ### Challenge Overview
@@ -20,6 +20,7 @@ Predictions will be compared against confirmed hospital bed occupancy data relea
 * Challenge Start Date: October 21, 2024
 * Challenge End Date: May 1, 2025
 * Weekly Submission Deadline: Tuesdays at 5 PM Eastern Time (referred to as the "Forecast Due Date"). Submissions should cover the reference week ending on the Saturday following the Forecast Due Date.
+
 The reference week is defined by the epidemiological week (EW) running from Sunday to Saturday. Submissions are expected to provide forecasts for the end of the reference week and the subsequent three weeks. Teams are encouraged to submit predictions for all forecast horizons, but it is not mandatory to cover every time period or location. Similarly, while teams are encouraged to forecast for all three targets, submitting predictions for all of them is not required. Predictions for the previous week's hospital admissions (horizon -1) are optional and will not be scored in summary evaluations but may assist with calibration.
 
 ### Important Notes
@@ -28,5 +29,5 @@ Forecasts for a horizon of -1 (the previous week) will not be included in offici
 Participation and Questions
 If you have any questions regarding this challenge or the development of prediction targets, please contact Siddhesh S. Kadam at skadam@uoguelph.ca.
 
-Acknowledgments
-This repository adheres to the hubverse guidelines, using standardized data formats and open-source tools for modeling hubs.
+### Acknowledgments
+This repository follows the guidelines and standards outlined by the hubverse, which provides a set of data formats and open source tools for modeling hubs.
