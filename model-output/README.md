@@ -1,191 +1,123 @@
-# Model outputs folder
+# Model Outputs Folder Overview
 
-This folder contains a set of subdirectories, one for each model, that contains submitted model output files for that model. The structure of these directories and their contents follows [the model output guidelines in our documentation](https://hubdocs.readthedocs.io/en/latest/format/model-output.html). Documentation for AI4Casting Hub submissions specifically is provided below. 
+This folder contains subdirectories for each model, which hold the submitted model output files. The structure and contents of these directories follow the [model output guidelines in our documentation](https://hubdocs.readthedocs.io/en/latest/format/model-output.html). Below, we outline instructions specifically for AI4Casting Hub submissions.
 
-# Data submission instructions
+# Data Submission Instructions
 
-All forecasts should be submitted directly to the [model-output/](./)
-folder. Data in this directory should be added to the repository through
-a pull request so that automatic data validation checks are run.
+Submit all forecasts directly to the [model-output/](./) folder by creating a pull request. This process ensures that automatic data validation checks are performed.
 
-These instructions provide detail about the [data
-format](#Data-formatting) as well as [validation](#Forecast-validation) that
-you can do prior to this pull request. In addition, we describe
-[metadata](https://github.com/cdcepi/FluSight-forecast-hub/blob/master/model-metadata/README.md)
-that each model should provide in the model-metadata folder.
+These instructions cover details on [data formatting](#Data-formatting) and [forecast validation](#Forecast-validation), which you can perform before submitting the pull request. Additionally, [metadata](https://github.com/cdcepi/FluSight-forecast-hub/blob/master/model-metadata/README.md) required for each model should be provided in the model-metadata folder.
 
-*Table of Contents*
+**Table of Contents**:
+- [What is a forecast](#What-is-a-forecast)
+- [Target data](#Target-data)
+- [Data formatting](#Data-formatting)
+- [Forecast file format](#Forecast-file-format)
+- [Forecast data validation](#Forecast-validation)
+- [Weekly ensemble build](#Weekly-ensemble-build)
+- [Policy on late submissions](#policy-on-late-or-updated-submissions)
 
--   [What is a forecast](#What-is-a-forecast)
--   [Target data](#Target-data)
--   [Data formatting](#Data-formatting)
--   [Forecast file format](#Forecast-file-format)
--   [Forecast data validation](#Forecast-validation)
--   [Weekly ensemble build](#Weekly-ensemble-build)
--   [Policy on late submissions](#policy-on-late-or-updated-submissions)
+## What is a Forecast?
 
-## What is a forecast 
+Forecasts are quantitative predictions about data to be observed in the future. These are considered "unconditional" predictions, meaning they should represent uncertainty across all possible future scenarios, not just specific ones (like increased vaccination rates or new social-distancing policies). Forecasts submitted here will be evaluated against actual observed data.
 
-Models are asked to make specific quantitative forecasts about data that
-will be observed in the future. These forecasts are interpreted as
-"unconditional" predictions about the future. That is, they are not
-predictions only for a limited set of possible future scenarios in which
-a certain set of conditions (e.g. vaccination uptake is strong, or new
-social-distancing mandates are put in place) hold about the future --
-rather, they should characterize uncertainty across all reasonable
-future scenarios. In practice, all forecasting models make some
-assumptions about how current trends in data may change and impact the
-forecasted outcome; some teams select a "most likely" scenario or
-combine predictions across multiple scenarios that may occur. Forecasts
-submitted to this repository will be evaluated against observed data.
+## Target Data
 
+This project focuses on hospital bed occupancy data for COVID-19, influenza, and RSV, as reported in the [Ontario Respiratory Virus Tool](https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Respiratory-Virus-Tool). This data serves as the target ("gold standard") for hospital forecasts. Further details can be found in the [target-data folder README](../target-data/README.md).
 
-## Target Data 
+## Data Formatting
 
-This project treats hospital bed occupancy for covid-19, influenza and rsv data reported through [Ontario Respiratory Virus Tool](https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Respiratory-Virus-Tool) as the target ("gold standard") data for hospital forecasts. 
-
-Details on how data target data are defined can be found in the
-[target-data folder README file](../target-data/README.md).
-
-## Data formatting 
-
-The automatic checks in place for forecast files submitted to this
-repository validates both the filename and file contents to ensure the
-file can be used in the visualization and ensemble forecasting.
+Automatic checks validate the filename and contents of forecast files to ensure compatibility with visualization and ensemble forecasting.
 
 ### Subdirectory
 
-Each model that submits forecasts for this project will have a unique subdirectory within the [model-output/](model-output/) directory in this GitHub repository where forecasts will be submitted. Each subdirectory must be named
+Each model submitting forecasts will have a unique subdirectory in the [model-output/](model-output/) directory. The subdirectory should be named as follows:
 
     team-model
 
-where
+Where:
+- `team` is the team name
+- `model` is the model name
 
--   `team` is the team name and
--   `model` is the name of your model.
-
-Both team and model should be less than 15 characters and not include
-hyphens or other special characters, with the exception of "\_".
-
-The combination of `team` and `model` should be unique from any other model in the project.
-
+Both `team` and `model` should be under 15 characters and not contain special characters, except for underscores (`_`). Each team-model combination must be unique.
 
 ### Metadata
 
-The metadata file will be saved within the model-metdata directory in the Hub's GitHub repository, and should have the following naming convention:
+The metadata file for each model must follow this naming convention and be placed in the model-metadata directory:
 
+    team-model.yml
 
-      team-model.yml
-
-Details on the content and formatting of metadata files are provdided in the [model-metadata README](https://github.com/ai4castinghub/pho-hospitalization-forecast/blob/main/model-metadata/README.md).
-
+For more details, see the [model-metadata README](https://github.com/ai4castinghub/pho-hospitalization-forecast/blob/main/model-metadata/README.md).
 
 ### Forecasts
 
-Each forecast file should have the following
-format
+Each forecast file should be named as follows:
 
     YYYY-MM-DD-team-model.csv
 
-where
+Where:
+- `YYYY` is the 4-digit year
+- `MM` is the 2-digit month
+- `DD` is the 2-digit day
+- `team` is the team name
+- `model` is the model name
 
--   `YYYY` is the 4 digit year,
--   `MM` is the 2 digit month,
--   `DD` is the 2 digit day,
--   `team` is the team name, and
--   `model` is the name of your model.
+The `YYYY-MM-DD` date should be the Saturday following the submission date and match the `reference_date` inside the file. The `team` and `model` in the filename must match the subdirectory names.
 
-The date YYYY-MM-DD is the [`reference_date`](#reference_date). This should be the Saturday following the submission date.
+## Forecast File Format
 
-The `team` and `model` in this file must match the `team` and `model` in
-the directory this file is in. Both `team` and `model` should be less
-than 15 characters, alpha-numeric and underscores only, with no spaces
-or hyphens. **Note:** Any categorical rate-trend forecasts should be submitted in the same weekly csv submission file as the hospital admission forecasts. 
+The forecast file should be a CSV with the following columns:
 
-## Forecast file format 
-
-The file must be a comma-separated value (csv) file with the following
-columns (in any order):
-
--   `reference_date`
--   `target`
--   `horizon`
--   `target_end_date`
--   `location`
--   `output_type`
--   `output_type_id`
--   `value`
+- `reference_date`
+- `target`
+- `horizon`
+- `target_end_date`
+- `location`
+- `output_type`
+- `output_type_id`
+- `value`
 
 No additional columns are allowed.
 
-The value in each row of the file is either a quantile or rate-trend prediction for a particular combination of location, date, and horizon. Please see Tables 1 and 2 below for examples based on sample dates. 
+Each row in the file represents a quantile or rate-trend prediction for a specific location, date, and horizon.
 
-### `reference_date` 
+### `reference_date`
 
-Values in the `reference_date` column must be a date in the ISO format
-
-    YYYY-MM-DD
-
-This is the date from which all forecasts should be considered. This date is the Saturday following the submission Due Date, corresponding to the last day of the epiweek when submissions are made. The `reference_date` should be the same as the date in the filename but is included here to facilitate validation and analysis. 
+This date (in `YYYY-MM-DD` format) indicates when the forecast is made. It should always be the Saturday following the submission date.
 
 ### `target`
 
-Values in the `target` column must be a character (string) and be one of
-the following specific targets:
-
--   `wk inc flu hosp` 
--   `wk inc rsv hosp`
--   `wk inc covid hosp`
-
+This column must contain one of the following target strings:
+- `wk inc flu hosp`
+- `wk inc rsv hosp`
+- `wk inc covid hosp`
 
 ### `horizon`
-Values in the `horizon` column indicate the number of weeks between the `reference_date` and the `target_end_date`.  For influenza hospital admission forecasts this should be a number between -1 and 3, where for example a `horizon` of 0 indicates that the prediction is a nowcast for the week of submission and a `horizon` of 1 indicates that the prediction is a forecast for the week after submission. 
+
+Indicates the number of weeks between the `reference_date` and the `target_end_date`. A horizon of `0` represents a nowcast, while a horizon of `1` represents a forecast for the following week.
 
 ### `target_end_date`
 
-Values in the `target_end_date` column must be a date in the format
-
-    YYYY-MM-DD
-    
-This is the last date of the forecast target's week. This will be the date of the Saturday at the end of the forecasted week. As a reminder, the `target_end_date` is the end date of the week during which the admissions are reported (see the data processing section for more details). Within each row of the submission file, the `target_end_date` should be equal to the `reference_date` + `horizon`*(7 days).
-
+The last date of the forecast target’s week, formatted as `YYYY-MM-DD`. It is the Saturday at the end of the forecasted week.
 
 ### `location`
 
-Values in the `location` column must be one of the "locations" in
-this [location information file](../auxiliary-data/phu_region_mapping.csv)
-
+This should match one of the "OH_Name" in the [location information file](../auxiliary-data/phu_region_mapping.csv).
 
 ### `output_type`
 
-Values in the `output_type` column is
-
--   "quantile"
-
-This value indicates that those row corresponds to a quantile forecast for incident hospital admissions.
-
-### `output_type_id`
-Values in the `output_type_id` column specify identifying information for the output type.
-
-#### quantile output
-
-When the predictions are quantiles, values in the `output_type_id` column are a quantile probability level in the format
+Currently, this column should be set to "quantile," representing quantile forecasts for hospital bed occupancy.
 
     0.###
 
- This value indicates the quantile probability level for for the
+### `output_type_id`
+
+For quantile forecasts, this column specifies the quantile probability level, formatted as `0.###`. This value indicates the quantile probability level for for the
 `value` in this row.
 
-Teams must provide the following 23 quantiles:
+Teams must provide the following 7 quantiles:
 
-0.01, 0.025, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4,
-0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9,
-0.95, 0.975, and 0.99
-
-R: c(0.01, 0.025, seq(0.05, 0.95, by = 0.05), 0.975, 0.99) 
-Python: quantiles =
-np.append(np.append([0.01,0.025],np.arange(0.05,0.95+0.05,0.05)),
-[0.975,0.99])
+0.025, 0.1, 0.25, 0.5, 0.75, 0.9 and 0.975
 
 
 ### `value`
@@ -194,17 +126,18 @@ Values in the `value` column are non-negative numbers indicating the "quantile" 
 
 ### Example tables
 
-**Table 1:** the reference date, target end dates, and the dates
-included in the predicted EW for an example of the weekly hospital
-admissions target with a reference date of Saturday, November 18, 2023.
+**Table 1:** This table represents a forecast for the week ending on 2024-10-12 for flu hospitalizations in the Central region. The forecast includes quantile predictions ranging from the 2.5th to the 97.5th percentiles. The horizon of -1 indicates this is a hindcast for the previous week relative to the reference_date of 2024-10-19.
 
-| reference_date | horizon | target_end_date | target EW | target EW dates covered  |
-|:---------------|:--------|:----------------|:----------|:-------------------------|
-| 2023-11-18     | -1      | 2023-11-11      | 45        | 2023-11-05 to 2023-11-11 |
-| 2023-11-18     | 0       | 2023-11-18      | 46        | 2023-11-12 to 2023-11-18 |
-| 2023-11-18     | 1       | 2023-11-25      | 47        | 2023-11-19 to 2023-11-25 |
-| 2023-11-18     | 2       | 2023-12-02      | 48        | 2023-11-26 to 2023-12-02 |
-| 2023-11-18     | 3       | 2023-12-09      | 49        | 2023-12-03 to 2023-12-09 |
+| reference_date | target          | horizon | location | target_end_date | output_type | output_type_id | value |
+|----------------|-----------------|---------|----------|-----------------|-------------|----------------|-------|
+| 2024-10-19     | wk inc flu hosp | -1      | Central  | 2024-10-12      | quantile    | 0.025          | 30    |
+| 2024-10-19     | wk inc flu hosp | -1      | Central  | 2024-10-12      | quantile    | 0.1            | 32    |
+| 2024-10-19     | wk inc flu hosp | -1      | Central  | 2024-10-12      | quantile    | 0.25           | 33    |
+| 2024-10-19     | wk inc flu hosp | -1      | Central  | 2024-10-12      | quantile    | 0.5            | 35    |
+| 2024-10-19     | wk inc flu hosp | -1      | Central  | 2024-10-12      | quantile    | 0.75           | 37    |
+| 2024-10-19     | wk inc flu hosp | -1      | Central  | 2024-10-12      | quantile    | 0.9            | 38    |
+| 2024-10-19     | wk inc flu hosp | -1      | Central  | 2024-10-12      | quantile    | 0.975          | 40    |
+
 
 
 ## Forecast validation 
@@ -226,7 +159,7 @@ Optionally, you may validate a forecast file locally before submitting it to the
 2. Create a draft of the model submission file for your model and place it in the `model-output/<your model id>` folder of this clone.
 3. Install the hubValidations package for R by running the following command from within an R session:
 ``` r
-remotes::install_github("Infectious-Disease-Modeling-Hubs/hubValidations")
+install.packages("hubValidations", repos = c("https://hubverse-org.r-universe.dev", "https://cloud.r-project.org"))
 ```
 4. Validate your draft forecast submission file by running the following command in an R session:
 ``` r
@@ -241,18 +174,17 @@ For example, if your working directory is the root of the hub repository, you ca
 library(hubValidations)
 hubValidations::validate_submission(
     hub_path=".",
-    file_path="UMass-trends_ensemble/2023-10-07-UMass-trends_ensemble.csv")
+    file_path="F-trends/2024-11-12-F-trends.csv")
 ```
 The function returns the output of each validation check.
 
 If all is well, all checks should either be prefixed with a `✔` indicating success or `ℹ` indicating a check was skipped, e.g.:
 ```
-✔ FluSight-forecast-hub: All hub config files are valid.
-✔ 2023-10-07-UMass-trends_ensemble.csv: File exists at path model-output/UMass-trends_ensemble/2023-10-07-UMass-trends_ensemble.csv.
-✔ 2023-10-07-UMass-trends_ensemble.csv: File name "2022-10-22-team1-goodmodel.csv" is valid.
-✔ 2023-10-07-UMass-trends_ensemble.csv: File directory name matches `model_id` metadata in file name.
-✔ 2023-10-07-UMass-trends_ensemble.csv: `round_id` is valid.
-✔ 2023-10-07-UMass-trends_ensemble.csv: File is accepted hub format.
+✔ 2024-11-12-F-trends.csv: File exists at path model-output/F-trends/2024-11-12-F-trends.csv.
+✔ 2024-11-12-F-trends.csv: File name "2022-10-22-team1-goodmodel.csv" is valid.
+✔ 2024-11-12-F-trends.csv: File directory name matches `model_id` metadata in file name.
+✔ 2024-11-12-F-trends.csv: `round_id` is valid.
+✔ 2024-11-12-F-trends.csv: File is accepted hub format.
 ...
 ```
 
@@ -264,7 +196,7 @@ library(hubValidations)
 
 validations <- validate_submission(
     hub_path = ".",
-    file_path = "UMass-trends_ensemble/2023-10-07-UMass-trends_ensemble.csv")
+    file_path = "F-trends/2024-11-12-F-trends.csv")
 
 check_for_errors(validations)
 ```
@@ -276,8 +208,8 @@ If the file passes all validation checks, the function will return the following
 If test failures or execution errors are detected, the function throws an error and prints the messages of checks affected. For example, the following output is returned when all other checks have passed but the file is being validated outside the submission time window for the round:
 
 ```r
-! 2023-10-14-UMass-trends_ensemble.csv: Submission time must be within accepted submission window for round.  Current time
-  2023-10-03 12:23:08 is outside window 2023-10-08 EDT--2023-10-16 23:59:59 EDT.
+! 2024-11-12-F-trends.csv: Submission time must be within accepted submission window for round.  Current time
+  2024-11-12 10:00:08 is outside window 2024-11-01 EDT--2024-11-07 23:59:59 EDT.
 Error in `check_for_errors()`:
 ! 
 The validation checks produced some failures/errors reported above.
@@ -290,4 +222,3 @@ In order to ensure that forecasting is done in real-time, all forecasts are requ
 
 ## Evaluation criteria
 Forecasts will be evaluated using a variety of metrics, including weighted interval score (WIS) and its components and prediction interval coverage. The CMU [Delphi group's Forecast Evaluation Dashboard](https://delphi.cmu.edu/forecast-eval/) and the COVID-19 Forecast Hub periodic [Forecast Evaluation Reports](https://covid19forecasthub.org/eval-reports/) provide examples of evaluations using these criteria.
-
