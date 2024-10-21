@@ -6,7 +6,6 @@ The `target-data` folder contains the **CSV** data that the forecasts will be co
 
 ### Table of Contents
 - [Hospitalization Data](#hospitalization-data)
-- [Other Data Sources](#other-data-sources)
 - [Accessing Target Data](#accessing-target-data)
 - [Data Processing](#data-processing)
 - [Additional Resources](#additional-resources)
@@ -44,6 +43,6 @@ The hospitalization target data is computed from the **Number** field in the `./
 Here are additional resources relevant to the data:
 
 - [Data Dictionary](https://www.publichealthontario.ca/-/media/Documents/R/2023/respiratory-virus-tool-user-guide.pdf?sc_lang=en&rev=44a28312271e4f0f91556c5023bb78c3&hash=26AD3D217EAB4F480C5C28714E4B0CAA)
-- [Link to reporting guidance](https://www.publichealthontario.ca/-/media/Data-Files/respiratory-virus-tool-technical-notes.pdf?sc_lang=en&rev=b00f64cd5e5c48afb2155bc89899d338&hash=5ACF5F23C24434CDD512E2BCB3DDAA8E)
+- [Technical Notes](https://www.publichealthontario.ca/-/media/Data-Files/respiratory-virus-tool-technical-notes.pdf?sc_lang=en&rev=b00f64cd5e5c48afb2155bc89899d338&hash=5ACF5F23C24434CDD512E2BCB3DDAA8E)
 
 ---
