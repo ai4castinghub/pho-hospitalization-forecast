@@ -1,7 +1,7 @@
 team_name: "fluLab"
 team_abbr: "fluLabh"
 model_name: "cc1"
-model_abbr: "cc"
+model_abbr: "cc1"
 model_version: "1.0"
 model_contributors: [
   {
