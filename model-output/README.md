@@ -24,6 +24,8 @@ Forecasts are quantitative predictions about data to be observed in the future. 
 
 This project focuses on hospital bed occupancy data for COVID-19, Influenza, and RSV, as reported in the [Ontario Respiratory Virus Tool](https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Respiratory-Virus-Tool). This data serves as the target ("gold standard") for hospital forecasts. Further details can be found in the [target-data folder README](../target-data/README.md).
 
+ Teams are encouraged to submit predictions for all forecast horizons, but it is not mandatory to cover every time period or location. Similarly, while teams are encouraged to forecast for all three targets, submitting predictions for all of them is not required. Predictions for the previous week's hospital admissions (horizon -1) are optional and will not be scored in summary evaluations but may assist with calibration.
+
 ## Data Formatting
 
 Automatic checks validate the filename and contents of forecast files to ensure compatibility with visualization and ensemble forecasting.
