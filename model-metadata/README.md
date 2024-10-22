@@ -6,7 +6,7 @@ generate hub submissions.
 Every model must have corresponding metadata in this folder. 
 The metadata file should be in 
 [yaml format](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html). 
-Here is an [example of a model metadata file](./MOBS-GLEAM_FLUH.yml).
+Here is an [example of a model metadata file](./team_name-model_name.yml).
 
 The instructions below provide detail about the [data
 format](#Data-format) as well as [validation](#Data-validation) that
