@@ -6,7 +6,7 @@ This folder contains subdirectories for each model, which hold the submitted mod
 
 Submit all forecasts directly to the [model-output/](./) folder by creating a pull request. This process ensures that automatic data validation checks are performed.
 
-These instructions cover details on [data formatting](#Data-formatting) and [forecast validation](#Forecast-validation), which you can perform before submitting the pull request. Additionally, [metadata](https://github.com/ai4castinghub/pho-hospitalization-forecast/blob/main/model-metadata/README.md) required for each model should be provided in the model-metadata folder.
+These instructions cover details on [data formatting](#Data-formatting) and [forecast validation](#Forecast-validation), which you can perform before submitting the pull request. Additionally, [metadata](https://github.com/ai4castinghub/pho-hospitalization-forecast/blob/main/model-metadata/README.md) required for each model should be provided in the model-metadata folder prior to or with any forecast submissions.
 
 **Table of Contents**:
 - [What is a forecast](#What-is-a-forecast)
@@ -22,7 +22,7 @@ Forecasts are quantitative predictions about data to be observed in the future. 
 
 ## Target Data
 
-This project focuses on hospital bed occupancy data for COVID-19, influenza, and RSV, as reported in the [Ontario Respiratory Virus Tool](https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Respiratory-Virus-Tool). This data serves as the target ("gold standard") for hospital forecasts. Further details can be found in the [target-data folder README](../target-data/README.md).
+This project focuses on hospital bed occupancy data for COVID-19, Influenza, and RSV, as reported in the [Ontario Respiratory Virus Tool](https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/Respiratory-Virus-Tool). This data serves as the target ("gold standard") for hospital forecasts. Further details can be found in the [target-data folder README](../target-data/README.md).
 
 ## Data Formatting
 
@@ -32,7 +32,7 @@ Automatic checks validate the filename and contents of forecast files to ensure 
 
 Each model submitting forecasts will have a unique subdirectory in the [model-output/](model-output/) directory. The subdirectory should be named as follows:
 
-    team-model
+    team_-model
 
 Where:
 - `team` is the team name
