@@ -38,7 +38,17 @@ hospital_bed_occupancy <- hospital_bed_occupancy %>%
          rsv = `RSV hospital bed occupancy (total)`, 
          population = `Population_2021`) %>%
   arrange(as.Date(time)) %>%
-  mutate(year = year(time))
+  mutate(year = year(time)) |>
+  mutate(week = week(time)) |>
+  group_by(time,geo_value,geo_type,year,week) |>
+  summarise(
+    covid = sum(covid),
+    rsv = sum(rsv),
+    flu = sum(flu),
+  ) |>
+  ungroup()
+
+hospital_bed_occupancy$year <- as.integer(hospital_bed_occupancy$year)
 
 # Define seasons and filter data
 start_week <- 35
@@ -62,7 +72,7 @@ if (!dir.exists(file.path(archive_dir, "season_2023_2024"))) {
   # Loop through the years and save all data
   for (start_year in years) {
     end_year <- start_year + 1
-    
+    print(year,start_year)
     filtered_data <- hospital_bed_occupancy %>%
       filter((year == start_year & week >= start_week) | 
                (year == end_year & week <= end_week))
