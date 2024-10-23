@@ -40,6 +40,7 @@ WIS <- function(single_forecast, model, date, forecast_date, region, tid) {
   median_forecast <- single_forecast %>%
     filter(output_type_id == 0.5) %>%
     pull(value)
+
   
   # Calculate error metrics
   AE <- abs(single_true - median_forecast)
@@ -117,6 +118,14 @@ for (model in model_names){
       }
       
       for (j in 0:3){
+        single_forecast <- forecast %>%
+          filter(horizon == j)
+        
+        # Print if forecast data is missing for the region
+        if (nrow(single_forecast) == 0) {
+          #cat("No forecast data for target:", tid,"\n")
+          next  # Move to the next target
+        }
         target_date <- as.Date(reference_date) + (j * 7)
         cat("Ref. Date:", as.character(reference_date), "| Model:", model, "| Target Date:", as.character(target_date), "| Region:", region,"| Target:", tid, "\n")
         WIS_current <- WIS(single_forecast = single_forecast, model = model, date = as.character(reference_date), forecast_date =  as.character(target_date),region = region, tid = tid)
@@ -129,4 +138,3 @@ for (model in model_names){
     }
   }
 }
-
