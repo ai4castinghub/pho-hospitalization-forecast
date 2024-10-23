@@ -6,13 +6,11 @@ library(MMWRweek)
 library(tidyverse)
 
 # Load the dataset and process it efficiently
-df_healthdata_hosp <- read_csv('target-data/season_2024_2025/hospitalization-data.csv') %>%
+df_hhs <- read_csv('target-data/season_2024_2025/hospitalization-data.csv') %>%
   mutate(date = as_date(time)) %>%
   select(-1) %>%  # Remove first column if not needed
   arrange(date) %>%
   mutate(mmwr_week = MMWRweek(date)$MMWRweek)
-
-df_hhs <- df_healthdata_hosp
 
 # Optimized WIS Calculation Function
 WIS <- function(df_hhs, model1, model, date, forecast_date) {
@@ -23,21 +21,27 @@ WIS <- function(df_hhs, model1, model, date, forecast_date) {
     print('File path is null')
     return(NULL)  # Skip if file doesn't exist
   }
+  
   forecast <- read_csv(filename, show_col_types = FALSE)
+  
   if (nrow(forecast) == 0) return(NULL)  # Skip if file is empty
+  
+  # Ensure that location column is available
+  if (!"location" %in% colnames(forecast)) {
+    stop("Error: 'location' column not found in forecast data.")
+  }
+  
   state_vector <- c("Ontario","North East", "West", "East","Central","North West","Toronto")
   quantiles_vector <- c(0.025, 0.1, 0.25)
   
-  quantiles_count <- numeric(length(quantiles_vector))
-  
   df_WIS <- lapply(state_vector, function(state) {
     single_forecast <- forecast %>%
-      filter(target_end_date == forecast_date, location == state)
+      filter(target_end_date == forecast_date, as.character(.data$location) == state)
     
     if (nrow(single_forecast) == 0) return(NULL)
     
     single_true <- df_hhs %>%
-      filter(date == forecast_date, location == state) %>%
+      filter(date == forecast_date, as.character(.data$location) == state) %>%
       pull(value)
     
     if (length(single_true) == 0) return(NULL)
@@ -82,6 +86,7 @@ WIS <- function(df_hhs, model1, model, date, forecast_date) {
   
   return(WIS_results)
 }
+
 
 # Define model names and date range
 #model_metadata_directory <- 'model-metadata/'
