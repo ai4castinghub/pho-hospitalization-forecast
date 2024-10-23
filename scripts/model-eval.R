@@ -15,124 +15,118 @@ model_output_dir <- "model-output"
 model_names <- list.dirs(model_output_dir, full.names = FALSE, recursive = FALSE)
 
 # Fetch current weeks' reference data for models
-reference_date <- floor_date(Sys.Date(), unit = "week") + days(6)
+#reference_date <- floor_date(Sys.Date(), unit = "week") + days(6)
+reference_date <- as_date("2024-09-21")
 
 # Initialize WIS_all
 WIS_all <- NULL
 
-WIS <- function(df_hhs, model, date, forecast_date) {
-  filename <- paste0("model-output/", model, "/", date, "-", model, ".csv")
-  
-  # Check if the file exists
-  if (!file.exists(filename)){
-    cat("File path is null for model:", model, "on date:", date, "\n")
-    return(NULL)
-  }
-  
-  # Load forecast data
-  forecast <- read_csv(filename, show_col_types = FALSE)
-  
-  if (nrow(forecast) == 0) {
-    cat("Forecast file is empty for model:", model, "\n")
-    return(NULL)
-  }
-  
-  state_vector <- c("Ontario")  
+region_vector <- c("Ontario","North East", "West", "East","Central","North West","Toronto")
+target_vector <- c('wk inc covid hosp','wk inc flu hosp','wk inc rsv hosp')
+
+WIS <- function(single_forecast, model, date, forecast_date, region, tid) {
+
   quantiles_vector <- c(0.025, 0.1, 0.25)
+  df_WIS <- data.frame()
   
-  # Simplified lapply to inspect state processing
-  df_WIS <- lapply(state_vector, function(state) {
-    single_forecast <- forecast %>%
-      filter(target_end_date == forecast_date, location == state, target == 'wk inc covid hosp')
-    
-    # Print if forecast data is missing for the state
-    if (nrow(single_forecast) == 0) {
-      cat("No forecast data for state:", state, "on date:", forecast_date, "\n")
-      return(NULL)
-    }
-    
-    single_true <- df_hhs %>%
-      filter(time == as_date(forecast_date), geo_value == state) %>%
-      pull(covid)
+  single_true <- df_hhs %>%
+    filter(time == as_date(forecast_date), geo_value == region) %>%
+    pull(covid)
   
-    # Print if there is no true value for the state
-    if (length(single_true) == 0) {
-      cat("No true value for state:", state, "on date:", forecast_date, "\n")
-      return(NULL)
-    }
-    
-    # Get the median forecast value
-    median_forecast <- single_forecast %>%
-      filter(output_type_id == 0.5) %>%
-      pull(value)
-    
-    # Print if no median forecast was found
-    if (length(median_forecast) == 0) {
-      cat("No median forecast for state:", state, "\n")
-      return(NULL)
-    }
-    
-    # Calculate error metrics
-    AE <- abs(single_true - median_forecast)
-    MSE <- (single_true - median_forecast)^2
-    WIS <- AE / 2
-    
-    cat("State:", state, "AE:", AE, "MSE:", MSE, "Initial WIS:", WIS, "\n")
-    
-    # Simplified quantile loop with prints
-    for (quantile in quantiles_vector) {
-      lower <- single_forecast %>% filter(output_type_id == quantile) %>% pull(value)
-      upper <- single_forecast %>% filter(output_type_id == 1 - quantile) %>% pull(value)
-      
-      if (length(lower) == 0 || length(upper) == 0) {
-        cat("Missing quantile data for state:", state, "quantile:", quantile, "\n")
-        return(NULL)
-      }
-      
-      WIS <- WIS + (quantile * (upper - lower) + 
-                      (single_true < lower) * (lower - single_true) + 
-                      (single_true > upper) * (single_true - upper))
-      
-      cat("Updated WIS after quantile:", quantile, "for state:", state, ":", WIS, "\n")
-    }
-    
-    # Final WIS calculation
-    WIS <- WIS / (length(quantiles_vector) + 0.5)
-    
-    return(data.frame(location = state, WIS = WIS, AE = AE, MSE = MSE))
-  }) %>% bind_rows()
+  if (length(single_true) == 0) {
+    cat("No true value for region:", region, "on date:", forecast_date, "\n")
+  }
   
-  # Check if df_WIS is null
-  if (is.null(df_WIS)) {
+  median_forecast <- single_forecast %>%
+    filter(output_type_id == 0.5) %>%
+    pull(value)
+  
+  # Calculate error metrics
+  AE <- abs(single_true - median_forecast)
+  MSE <- (single_true - median_forecast)^2
+  WIS <- AE / 2
+  
+  cat("Region:", region, "AE:", AE, "MSE:", MSE, "Initial WIS:", WIS, "\n")
+
+  for (quantile in quantiles_vector) {
+    lower <- single_forecast %>% filter(output_type_id == quantile) %>% pull(value)
+    upper <- single_forecast %>% filter(output_type_id == 1 - quantile) %>% pull(value)
+    
+    if (length(lower) == 0 || length(upper) == 0) {
+      cat("Missing quantile data for region:", region, "quantile:", quantile, "\n")
+      next  # Move to the next quantile
+    }
+    
+    WIS <- WIS + (quantile * (upper - lower) + 
+                    (single_true < lower) * (lower - single_true) + 
+                    (single_true > upper) * (single_true - upper))
+    
+    cat("Updated WIS after quantile:", quantile, "for region:", region, ":", WIS, "\n")
+  }
+  
+  WIS <- WIS / (length(quantiles_vector) + 0.5)
+  
+  df_WIS <- bind_rows(df_WIS, data.frame(location = region, WIS = WIS, AE = AE, MSE = MSE))
+  
+  if (nrow(df_WIS) == 0) {
     cat("No WIS results generated for model:", model, "\n")
     return(NULL)
   }
   
-  # Calculate final metrics
   WIS_results <- data.frame(
-    forecast_date = date,
-    horizon = forecast_date,
+    reference_date = date,
+    target_end_date = forecast_date,
     model = model,
     WIS = mean(df_WIS$WIS, na.rm = TRUE),
     MAE = mean(df_WIS$AE, na.rm = TRUE),
-    MSE = mean(df_WIS$MSE, na.rm = TRUE)
+    MSE = mean(df_WIS$MSE, na.rm = TRUE),
+    region = region,
+    tid = tid
   )
-  
-  # Print the final result
-  cat("Final WIS:", WIS_results$WIS, "MAE:", WIS_results$MAE, "MSE:", WIS_results$MSE, "\n")
   
   return(WIS_results)
 }
 
-
 # Main Loop for Forecast Calculation
-for (j in 0:3) {  # Forecast horizons (0 to 3 weeks)
-  target_date <- as.Date(reference_date) + (j * 7)
-  for (model_name in model_names) {
-    cat("Reference Date:", as.character(reference_date), "| Model Name:", model_name, "| Target Date:", as.character(target_date), "\n")
-    WIS_current <- WIS(df_hhs = df_hhs, model = model_name, date = as.character(reference_date), forecast_date = as.character(target_date))
-    if (!is.null(WIS_current)) {
-      WIS_all <- bind_rows(WIS_all, WIS_current)
+for (model in model_names){
+  filename <- paste0("model-output/", model, "/", reference_date, "-", model, ".csv")
+  if (!file.exists(filename)){
+    #cat("File path is null for model:", model, "on reference_date:", reference_date, "\n")
+    next
+  }
+  forecast <- read_csv(filename, show_col_types = FALSE)
+  
+  for (region in region_vector){
+    single_forecast <- forecast %>%
+      filter(location == region)
+    
+    # Print if forecast data is missing for the region
+    if (nrow(single_forecast) == 0) {
+      #cat("No forecast data for state:", state,"\n")
+      next  # Move to the next region
+    }
+    
+    for (tid in target_vector){
+      single_forecast <- forecast %>%
+        filter(target == tid)
+      
+      # Print if forecast data is missing for the region
+      if (nrow(single_forecast) == 0) {
+        #cat("No forecast data for target:", tid,"\n")
+        next  # Move to the next target
+      }
+      
+      for (j in 0:3){
+        target_date <- as.Date(reference_date) + (j * 7)
+        cat("Ref. Date:", as.character(reference_date), "| Model:", model, "| Target Date:", as.character(target_date), "| Region:", region,"| Target:", tid, "\n")
+        WIS_current <- WIS(single_forecast = single_forecast, model = model, date = as.character(reference_date), forecast_date =  as.character(target_date),region = region, tid = tid)
+        if (!is.null(WIS_current)) {
+          WIS_all <- bind_rows(WIS_all, WIS_current)
+        }else{
+          print('File is Null')
+        }
+      }
     }
   }
 }
+

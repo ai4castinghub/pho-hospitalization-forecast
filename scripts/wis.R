@@ -32,7 +32,7 @@ WIS <- function(df_hhs, model1, model, date, forecast_date) {
     stop("Error: 'location' column not found in forecast data.")
   }
   
-  state_vector <- c("Ontario")#,"North East", "West", "East","Central","North West","Toronto")
+  state_vector <- c("Ontario","North East", "West", "East","Central","North West","Toronto")
   quantiles_vector <- c(0.025, 0.1, 0.25)
   
   df_WIS <- lapply(state_vector, function(state) {
