@@ -23,6 +23,7 @@ WIS <- function(df_hhs, model1, model, date, forecast_date) {
   }
   
   forecast <- read_csv(filename, show_col_types = FALSE)
+  print(forecast)
   
   if (nrow(forecast) == 0) return(NULL)  # Skip if file is empty
   
@@ -31,17 +32,17 @@ WIS <- function(df_hhs, model1, model, date, forecast_date) {
     stop("Error: 'location' column not found in forecast data.")
   }
   
-  state_vector <- c("Ontario","North East", "West", "East","Central","North West","Toronto")
+  state_vector <- c("Ontario")#,"North East", "West", "East","Central","North West","Toronto")
   quantiles_vector <- c(0.025, 0.1, 0.25)
   
   df_WIS <- lapply(state_vector, function(state) {
     single_forecast <- forecast %>%
-      filter(target_end_date == forecast_date, as.character(.data$location) == state)
+      filter(target_end_date == forecast_date, location == state)
     
     if (nrow(single_forecast) == 0) return(NULL)
     
     single_true <- df_hhs %>%
-      filter(date == forecast_date, as.character(.data$location) == state) %>%
+      filter(date == forecast_date, geo_value == state) %>%
       pull(value)
     
     if (length(single_true) == 0) return(NULL)
