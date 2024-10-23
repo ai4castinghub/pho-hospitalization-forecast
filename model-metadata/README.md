@@ -6,7 +6,7 @@ generate hub submissions.
 Every model must have corresponding metadata in this folder. 
 The metadata file should be in 
 [yaml format](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html). 
-Here is an [example of a model metadata file](./MOBS-GLEAM_FLUH.yml).
+Here is an [example of a model metadata file](./team_name-model_name.yml).
 
 The instructions below provide detail about the [data
 format](#Data-format) as well as [validation](#Data-validation) that
@@ -108,17 +108,17 @@ One or more citations to manuscripts or preprints with additional model details.
 
 ### team_funding 
 
-Any information about funding source(s) for the team or members of the team that would be natural to include on any resulting FluSight publications. For example, "National Institutes of General Medical Sciences (R01GM123456). The content is solely the responsibility of the authors and does not necessarily represent the official views of NIGMS."
+Any information about funding source(s) for the team or members of the team.
 
 # Data validation
 
 Optionally, you may validate a model metadata file locally before submitting it to the hub in a pull request. Note that this is not required, since the validations will also run on the pull request. To run the validations locally, follow these steps:
 
-1. Create a fork of the `FluSight-forecast-hub` repository and then clone the fork to your computer.
+1. Create a fork of the `pho-hospitalization-forecast` repository and then clone the fork to your computer.
 2. Create a draft of the model metadata file for your model and place it in the `model-metadata` folder of this clone.
 3. Install the hubValidations package for R by running the following command from within an R session:
 ``` r
-remotes::install_github("Infectious-Disease-Modeling-Hubs/hubValidations")
+install.packages("hubValidations", repos = c("https://hubverse-org.r-universe.dev", "https://cloud.r-project.org"))
 ```
 4. Validate your draft metadata file by running the following command in an R session:
 ``` r
@@ -129,17 +129,20 @@ hubValidations::validate_model_metadata(
 
 For example, if your working directory is the root of the hub repository, you can use a command similar to the following:
 ``` r
-hubValidations::validate_model_metadata(hub_path=".", file_path="UMass-trends_ensemble.yml")
+library(hubValidations)
+hubValidations::validate_submission(
+    hub_path=".",
+    file_path="F-trends/2024-11-12-F-trends.csv")
 ```
 
 If all is well, you should see output similar to the following:
 ```
 ✔ model-metadata-schema.json: File exists at path hub-config/model-metadata-schema.json.
-✔ UMass-trends_ensemble.yml: File exists at path model-metadata/UMass-trends_ensemble.yml.
-✔ UMass-trends_ensemble.yml: Metadata file extension is "yml" or "yaml".
-✔ UMass-trends_ensemble.yml: Metadata file directory name matches "model-metadata".
-✔ UMass-trends_ensemble.yml: Metadata file contents are consistent with schema specifications.
-✔ UMass-trends_ensemble.yml: Metadata file name matches the `model_id` specified within the metadata file.
+✔ F-trends.yml: File exists at path model-metadata/F-trends.yml.
+✔ F-trends.yml: Metadata file extension is "yml" or "yaml".
+✔ F-trends.yml: Metadata file directory name matches "model-metadata".
+✔ F-trends.yml: Metadata file contents are consistent with schema specifications.
+✔ F-trends.yml: Metadata file name matches the `model_id` specified within the metadata file.
 ```
 
 If there are any errors, you will see a message describing the problem.

@@ -1,13 +1,15 @@
 # [AI4Casting Hub – Hospital Bed Occupancy Data for Ontario Respiratory Virus Activity (2024-2025)](https://sites.uoguelph.ca/4castinghub/hospitalization/)
 Welcome to the AI4Casting Hub's repository for the 2024-2025 Hospital Bed Occupancy Forecasting Challenge, focused on respiratory virus activity in Ontario, including COVID-19, influenza, and RSV. This repository is dedicated to collecting weekly forecast data for hospital bed occupancy across the Ontario province, aiding in real-time decision-making and resource allocation.
 
+[**Link to AI4Casting Hub's Ontario Hospital Bed Occupancy Forecasting Official Page**](https://4castinghub.uoguelph.ca/hospitalization/)
+
 ### Challenge Overview
 AI4Casting Hub is organizing a collaborative nowcasting and forecasting challenge for confirmed hospital bed occupancy during the 2024-2025 influenza season, starting on October 21, 2024. The challenge will run until Monday, May 1, 2025. During this period, participating teams are asked to provide weekly probabilistic hindcasts, nowcasts and forecasts for hospital bed occupancy at both the provincial level (Ontario) and for each of the 6 Public Health Regions. 
 
 These predictions will cover three major respiratory viruses:
-* COVID-19 Hospital Bed Occupancy (wk inc covid)
-* Influenza Hospital Bed Occupancy (wk inc flu)
-* RSV Hospital Bed Occupancy (wk inc rsv)
+* COVID-19 Hospital Bed Occupancy (wk inc covid hosp)
+* Influenza Hospital Bed Occupancy (wk inc flu hosp)
+* RSV Hospital Bed Occupancy (wk inc rsv hosp)
 
 Teams will submit predictions for the number of hospital beds occupied during:
 * The preceding week
